@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String00001" xml:space="preserve">
+    <value>繁體中文1.7</value>
+  </data>
+  <data name="String00002" xml:space="preserve">
+    <value>已啟動</value>
+  </data>
+  <data name="String00003" xml:space="preserve">
+    <value>建立於</value>
+  </data>
+  <data name="String00004" xml:space="preserve">
+    <value>有新版本可用</value>
+  </data>
+  <data name="String00005" xml:space="preserve">
+    <value>儲存設定中</value>
+  </data>
+  <data name="String00006" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00007" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00008" xml:space="preserve">
+    <value>空帳號名稱或密碼已存在</value>
+  </data>
+  <data name="String00009" xml:space="preserve">
+    <value>儲存帳戶中</value>
+  </data>
+  <data name="String00010" xml:space="preserve">
+    <value>完成!</value>
+  </data>
+  <data name="String00011" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="String00012" xml:space="preserve">
+    <value>檢查中</value>
+  </data>
+  <data name="String00013" xml:space="preserve">
+    <value>每次</value>
+  </data>
+  <data name="String00014" xml:space="preserve">
+    <value>分(s)</value>
+  </data>
+  <data name="String00015" xml:space="preserve">
+    <value>立即檢查新郵件!</value>
+  </data>
+  <data name="String00016" xml:space="preserve">
+    <value>新郵件來自</value>
+  </data>
+  <data name="String00017" xml:space="preserve">
+    <value>代理關閉</value>
+  </data>
+  <data name="String00018" xml:space="preserve">
+    <value>代理開啟</value>
+  </data>
+  <data name="String00019" xml:space="preserve">
+    <value>聲音提示開啟</value>
+  </data>
+  <data name="String00020" xml:space="preserve">
+    <value>聲音提示關閉</value>
+  </data>
+  <data name="String00021" xml:space="preserve">
+    <value>所有帳戶</value>
+  </data>
+  <data name="String00022" xml:space="preserve">
+    <value>共有未讀:</value>
+  </data>
+  <data name="String00023" xml:space="preserve">
+    <value>回饋問題,稍後再試</value>
+  </data>
+  <data name="String00024" xml:space="preserve">
+    <value>Gmail連結錯誤</value>
+  </data>
+  <data name="String00025" xml:space="preserve">
+    <value>Gmail連結錯誤,您離線?</value>
+  </data>
+  <data name="String00026" xml:space="preserve">
+    <value>工作列提示啟用</value>
+  </data>
+  <data name="String00027" xml:space="preserve">
+    <value>完成!</value>
+  </data>
+  <data name="String00028" xml:space="preserve">
+    <value>無此帳戶!</value>
+  </data>
+  <data name="String00029" xml:space="preserve">
+    <value>聲音提示錯誤!</value>
+  </data>
+  <data name="String00030" xml:space="preserve">
+    <value>啟動預設郵件客戶端錯誤!</value>
+  </data>
+  <data name="String00031" xml:space="preserve">
+    <value>點選確定開啟瀏覽器並前往Spiffy 技術論壇,</value>
+  </data>
+  <data name="String00032" xml:space="preserve">
+    <value>請在這回報您的Spiffy問題(無須註冊).</value>
+  </data>
+  <data name="String00033" xml:space="preserve">
+    <value>您也可以發送電子郵件至</value>
+  </data>
+  <data name="String00034" xml:space="preserve">
+    <value>謝謝!</value>
+  </data>
+  <data name="String00035" xml:space="preserve">
+    <value>點選'確定'繼續PayPal!</value>
+  </data>
+  <data name="String00036" xml:space="preserve">
+    <value>停止檢查新郵件.</value>
+  </data>
+  <data name="String00037" xml:space="preserve">
+    <value>開始檢查新郵件.</value>
+  </data>
+  <data name="String00038" xml:space="preserve">
+    <value>工作列提示關閉</value>
+  </data>
+  <data name="String00039" xml:space="preserve">
+    <value>重新啟動定時器(s)</value>
+  </data>
+  <data name="String00040" xml:space="preserve">
+    <value>裡</value>
+  </data>
+  <data name="String00041" xml:space="preserve">
+    <value>時(s)</value>
+  </data>
+  <data name="String00042" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00043" xml:space="preserve">
+    <value>恢復視窗(預設)</value>
+  </data>
+  <data name="String00044" xml:space="preserve">
+    <value>檢查新郵件</value>
+  </data>
+  <data name="String00045" xml:space="preserve">
+    <value>在瀏覽器中打開 Gmail</value>
+  </data>
+  <data name="String00046" xml:space="preserve">
+    <value>告訴我</value>
+  </data>
+  <data name="String00047" xml:space="preserve">
+    <value>啟動預設郵件客戶端</value>
+  </data>
+  <data name="String00048" xml:space="preserve">
+    <value>選擇聲音提示</value>
+  </data>
+  <data name="String00049" xml:space="preserve">
+    <value>選擇背景下發出通知</value>
+  </data>
+  <data name="String00050" xml:space="preserve">
+    <value>選擇工作列圖標</value>
+  </data>
+  <data name="String00051" xml:space="preserve">
+    <value>聲音檔案</value>
+  </data>
+  <data name="String00052" xml:space="preserve">
+    <value>圖片檔案</value>
+  </data>
+  <data name="String00053" xml:space="preserve">
+    <value>圖標檔案</value>
+  </data>
+  <data name="String00054" xml:space="preserve">
+    <value>重設為預設</value>
+  </data>
+  <data name="String00055" xml:space="preserve">
+    <value>儲存設定中</value>
+  </data>
+  <data name="String00056" xml:space="preserve">
+    <value>警告:提示延遲0,重設為預設</value>
+  </data>
+  <data name="String00057" xml:space="preserve">
+    <value>警告:網址為空值,重設為預設</value>
+  </data>
+  <data name="String00058" xml:space="preserve">
+    <value>綠色(預設)</value>
+  </data>
+  <data name="String00059" xml:space="preserve">
+    <value>星星(預設)</value>
+  </data>
+  <data name="String00060" xml:space="preserve">
+    <value>綠色</value>
+  </data>
+  <data name="String00061" xml:space="preserve">
+    <value>灰色</value>
+  </data>
+  <data name="String00062" xml:space="preserve">
+    <value>藍色</value>
+  </data>
+  <data name="String00063" xml:space="preserve">
+    <value>紫色</value>
+  </data>
+  <data name="String00064" xml:space="preserve">
+    <value>紅色</value>
+  </data>
+  <data name="String00065" xml:space="preserve">
+    <value>帳戶</value>
+  </data>
+  <data name="String00066" xml:space="preserve">
+    <value>所有檔案</value>
+  </data>
+  <data name="String00067" xml:space="preserve">
+    <value>&amp;聲音開啟</value>
+  </data>
+  <data name="String00068" xml:space="preserve">
+    <value>&amp;提示開啟</value>
+  </data>
+  <data name="String00069" xml:space="preserve">
+    <value>&amp;定時器開啟</value>
+  </data>
+  <data name="String00070" xml:space="preserve">
+    <value>&amp;代理開啟</value>
+  </data>
+  <data name="String00071" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00072" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00073" xml:space="preserve">
+    <value>停止檢查</value>
+  </data>
+  <data name="String00074" xml:space="preserve">
+    <value>開始檢查</value>
+  </data>
+  <data name="String00075" xml:space="preserve">
+    <value>今天在</value>
+  </data>
+  <data name="String00076" xml:space="preserve">
+    <value>昨天在</value>
+  </data>
+  <data name="String00077" xml:space="preserve">
+    <value>您擁有最新版本</value>
+  </data>
+  <data name="String00078" xml:space="preserve">
+    <value>有新版本可用!</value>
+  </data>
+  <data name="String00079" xml:space="preserve">
+    <value>此版本</value>
+  </data>
+  <data name="String00080" xml:space="preserve">
+    <value>最新版本</value>
+  </data>
+  <data name="String00081" xml:space="preserve">
+    <value>立即前往Spiffy網站?</value>
+  </data>
+  <data name="String00082" xml:space="preserve">
+    <value>更新檢查錯誤</value>
+  </data>
+  <data name="String00083" xml:space="preserve">
+    <value>有新版本可用!點選下載</value>
+  </data>
+  <data name="String00084" xml:space="preserve">
+    <value>找到新版本</value>
+  </data>
+  <data name="String00085" xml:space="preserve">
+    <value>前往Spiffy網站下載!</value>
+  </data>
+  <data name="String00086" xml:space="preserve">
+    <value>未讀</value>
+  </data>
+  <data name="String00087" xml:space="preserve">
+    <value>您要前往Spiffy網站來獲取更多資訊嗎?</value>
+  </data>
+  <data name="String00088" xml:space="preserve">
+    <value>密碼錯誤!</value>
+  </data>
+  <data name="String00089" xml:space="preserve">
+    <value>如果最近增加或修改帳戶,請重新輸入密碼並儲存.</value>
+  </data>
+  <data name="String00090" xml:space="preserve">
+    <value>檢查日誌視窗了解更多詳情.</value>
+  </data>
+  <data name="String00091" xml:space="preserve">
+    <value>如果您是升級從版本0.4.3或更早版本,請重新輸入所有帳戶的密碼並儲存.</value>
+  </data>
+  <data name="String00092" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00093" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00094" xml:space="preserve">
+    <value>Spiffy 遇到了錯誤所以必須關閉...</value>
+  </data>
+  <data name="String00095" xml:space="preserve">
+    <value>請回報至spiffyhq@gmail.com 或者至論壇留言.</value>
+  </data>
+  <data name="String00096" xml:space="preserve">
+    <value>謝謝您的支持!</value>
+  </data>
+  <data name="String00097" xml:space="preserve">
+    <value>(使用ALT+ PRINTSCREEN複製此框)</value>
+  </data>
+  <data name="String00098" xml:space="preserve">
+    <value>嚴重錯誤</value>
+  </data>
+  <data name="String00099" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00100" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00101" xml:space="preserve">
+    <value>&amp;檔案</value>
+  </data>
+  <data name="String00102" xml:space="preserve">
+    <value>&amp;設定</value>
+  </data>
+  <data name="String00103" xml:space="preserve">
+    <value>&amp;幫助</value>
+  </data>
+  <data name="String00104" xml:space="preserve">
+    <value>&amp;隱藏日誌</value>
+  </data>
+  <data name="String00105" xml:space="preserve">
+    <value>&amp;顯示日誌</value>
+  </data>
+  <data name="String00106" xml:space="preserve">
+    <value>&amp;清除日誌</value>
+  </data>
+  <data name="String00107" xml:space="preserve">
+    <value>&amp;離開 Spiffy</value>
+  </data>
+  <data name="String00108" xml:space="preserve">
+    <value>&amp;立即檢查</value>
+  </data>
+  <data name="String00109" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00110" xml:space="preserve">
+    <value>&amp;開啟計時器(s)</value>
+  </data>
+  <data name="String00111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00112" xml:space="preserve">
+    <value>代理開啟</value>
+  </data>
+  <data name="String00113" xml:space="preserve">
+    <value>&amp;帳戶</value>
+  </data>
+  <data name="String00114" xml:space="preserve">
+    <value>&amp;設置</value>
+  </data>
+  <data name="String00115" xml:space="preserve">
+    <value>Spiffy網站</value>
+  </data>
+  <data name="String00116" xml:space="preserve">
+    <value>Spiffy論壇</value>
+  </data>
+  <data name="String00117" xml:space="preserve">
+    <value>&amp;回報此問題</value>
+  </data>
+  <data name="String00118" xml:space="preserve">
+    <value>&amp;檢查更新</value>
+  </data>
+  <data name="String00119" xml:space="preserve">
+    <value>&amp;捐贈經由Paypal</value>
+  </data>
+  <data name="String00120" xml:space="preserve">
+    <value>&amp;關於 Spiffy</value>
+  </data>
+  <data name="String00121" xml:space="preserve">
+    <value>&amp;立即檢查</value>
+  </data>
+  <data name="String00122" xml:space="preserve">
+    <value>&amp;告訴我</value>
+  </data>
+  <data name="String00123" xml:space="preserve">
+    <value>&amp;打開Gmail</value>
+  </data>
+  <data name="String00124" xml:space="preserve">
+    <value>計時器關閉</value>
+  </data>
+  <data name="String00125" xml:space="preserve">
+    <value>計時器開啟</value>
+  </data>
+  <data name="String00126" xml:space="preserve">
+    <value>代理關閉</value>
+  </data>
+  <data name="String00127" xml:space="preserve">
+    <value>代理開啟</value>
+  </data>
+  <data name="String00128" xml:space="preserve">
+    <value>&amp;恢復視窗</value>
+  </data>
+  <data name="String00129" xml:space="preserve">
+    <value>&amp;總是隱藏視窗</value>
+  </data>
+  <data name="String00130" xml:space="preserve">
+    <value>&amp;帳戶</value>
+  </data>
+  <data name="String00131" xml:space="preserve">
+    <value>&amp;設置</value>
+  </data>
+  <data name="String00132" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00133" xml:space="preserve">
+    <value>帳戶(s)</value>
+  </data>
+  <data name="String00134" xml:space="preserve">
+    <value>帳戶</value>
+  </data>
+  <data name="String00135" xml:space="preserve">
+    <value>帳戶名稱</value>
+  </data>
+  <data name="String00136" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00137" xml:space="preserve">
+    <value>使用者名稱</value>
+  </data>
+  <data name="String00138" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="String00139" xml:space="preserve">
+    <value>儲存清除後的密碼.</value>
+  </data>
+  <data name="String00140" xml:space="preserve">
+    <value>域名</value>
+  </data>
+  <data name="String00141" xml:space="preserve">
+    <value>Google應用服務</value>
+  </data>
+  <data name="String00142" xml:space="preserve">
+    <value>每次檢查未讀郵件</value>
+  </data>
+  <data name="String00143" xml:space="preserve">
+    <value>分(s)</value>
+  </data>
+  <data name="String00144" xml:space="preserve">
+    <value>檢查Gmail標籤而不是Gmail收件箱</value>
+  </data>
+  <data name="String00145" xml:space="preserve">
+    <value>使用自定義聲音提示</value>
+  </data>
+  <data name="String00146" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="String00147" xml:space="preserve">
+    <value>&amp;重設</value>
+  </data>
+  <data name="String00148" xml:space="preserve">
+    <value>重設此帳號</value>
+  </data>
+  <data name="String00149" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00150" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00151" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="String00152" xml:space="preserve">
+    <value>&amp;確定</value>
+  </data>
+  <data name="String00153" xml:space="preserve">
+    <value>&amp;取消</value>
+  </data>
+  <data name="String00154" xml:space="preserve">
+    <value>&amp;應用</value>
+  </data>
+  <data name="String00155" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="String00156" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="String00157" xml:space="preserve">
+    <value>自定義</value>
+  </data>
+  <data name="String00158" xml:space="preserve">
+    <value>網路</value>
+  </data>
+  <data name="String00159" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00160" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00161" xml:space="preserve">
+    <value>選擇一個子類別</value>
+  </data>
+  <data name="String00162" xml:space="preserve">
+    <value>主視窗</value>
+  </data>
+  <data name="String00163" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="String00164" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="String00165" xml:space="preserve">
+    <value>圖標</value>
+  </data>
+  <data name="String00166" xml:space="preserve">
+    <value>滑鼠</value>
+  </data>
+  <data name="String00167" xml:space="preserve">
+    <value>代理</value>
+  </data>
+  <data name="String00168" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="String00169" xml:space="preserve">
+    <value>高級</value>
+  </data>
+  <data name="String00170" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00171" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00172" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="String00173" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="String00174" xml:space="preserve">
+    <value>提示顯示新的電子郵件,並顯示它</value>
+  </data>
+  <data name="String00175" xml:space="preserve">
+    <value>秒(s).</value>
+  </data>
+  <data name="String00176" xml:space="preserve">
+    <value>顯示提示直到電子郵件在Gmail中閱讀，如果未讀取提示會再顯示一次.</value>
+  </data>
+  <data name="String00177" xml:space="preserve">
+    <value>當接收多個電子郵件時會顯示最新的電子郵件.</value>
+  </data>
+  <data name="String00178" xml:space="preserve">
+    <value>行為</value>
+  </data>
+  <data name="String00179" xml:space="preserve">
+    <value>堆疊提示,如果未讀提示會全顯示在同一地方</value>
+  </data>
+  <data name="String00180" xml:space="preserve">
+    <value>持續顯示提示</value>
+  </data>
+  <data name="String00181" xml:space="preserve">
+    <value>顯示</value>
+  </data>
+  <data name="String00182" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="String00183" xml:space="preserve">
+    <value>隱藏</value>
+  </data>
+  <data name="String00184" xml:space="preserve">
+    <value>工作列圖標</value>
+  </data>
+  <data name="String00185" xml:space="preserve">
+    <value>改變工作列圖標上新的電子郵件,並使用該圖標:</value>
+  </data>
+  <data name="String00186" xml:space="preserve">
+    <value>在新的電子郵件播放聲音提示</value>
+  </data>
+  <data name="String00187" xml:space="preserve">
+    <value>啟用聲音提示</value>
+  </data>
+  <data name="String00188" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00189" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00190" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00191" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00192" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="String00193" xml:space="preserve">
+    <value>啟動選項</value>
+  </data>
+  <data name="String00194" xml:space="preserve">
+    <value>當我登錄Windows執行Spiffy</value>
+  </data>
+  <data name="String00195" xml:space="preserve">
+    <value>開機後Spiffy隱藏至工作列</value>
+  </data>
+  <data name="String00196" xml:space="preserve">
+    <value>開機後檢查是否有新郵件</value>
+  </data>
+  <data name="String00197" xml:space="preserve">
+    <value>開機後Spiffy隱藏至工作列才執行檢查.</value>
+  </data>
+  <data name="String00198" xml:space="preserve">
+    <value>郵件檢查定時器</value>
+  </data>
+  <data name="String00199" xml:space="preserve">
+    <value>關閉後,重新啟動檢查新郵件</value>
+  </data>
+  <data name="String00200" xml:space="preserve">
+    <value>時(s)</value>
+  </data>
+  <data name="String00201" xml:space="preserve">
+    <value>事項.</value>
+  </data>
+  <data name="String00202" xml:space="preserve">
+    <value>縮小至工作列</value>
+  </data>
+  <data name="String00203" xml:space="preserve">
+    <value>從工作列關閉</value>
+  </data>
+  <data name="String00204" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="String00205" xml:space="preserve">
+    <value>*重新啟動時更改Spiffy語言！</value>
+  </data>
+  <data name="String00206" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="String00207" xml:space="preserve">
+    <value>開機檢查新版本</value>
+  </data>
+  <data name="String00208" xml:space="preserve">
+    <value>主視窗</value>
+  </data>
+  <data name="String00209" xml:space="preserve">
+    <value>半透明</value>
+  </data>
+  <data name="String00210" xml:space="preserve">
+    <value>不透明</value>
+  </data>
+  <data name="String00211" xml:space="preserve">
+    <value>事項.</value>
+  </data>
+  <data name="String00212" xml:space="preserve">
+    <value>始終在上面</value>
+  </data>
+  <data name="String00213" xml:space="preserve">
+    <value>顯示菜單欄</value>
+  </data>
+  <data name="String00214" xml:space="preserve">
+    <value>顯示工具欄</value>
+  </data>
+  <data name="String00215" xml:space="preserve">
+    <value>標題欄 / 托盤工具提示文本</value>
+  </data>
+  <data name="String00216" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00217" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00218" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00219" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00220" xml:space="preserve">
+    <value>滑鼠</value>
+  </data>
+  <data name="String00221" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="String00222" xml:space="preserve">
+    <value>鼠標遮蔽時保持提示.</value>
+  </data>
+  <data name="String00223" xml:space="preserve">
+    <value>當鼠標進入重新顯示提示.</value>
+  </data>
+  <data name="String00224" xml:space="preserve">
+    <value>提示'關閉區域'點擊.</value>
+  </data>
+  <data name="String00225" xml:space="preserve">
+    <value>提示'訊息'是可點擊並打開收件箱.</value>
+  </data>
+  <data name="String00226" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00227" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00228" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00229" xml:space="preserve">
+    <value>工作列提示</value>
+  </data>
+  <data name="String00230" xml:space="preserve">
+    <value>自定義工作列提示.</value>
+  </data>
+  <data name="String00231" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="String00232" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="String00233" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="String00234" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="String00235" xml:space="preserve">
+    <value>寬</value>
+  </data>
+  <data name="String00236" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="String00237" xml:space="preserve">
+    <value>關閉區域</value>
+  </data>
+  <data name="String00238" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="String00239" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="String00240" xml:space="preserve">
+    <value>來自</value>
+  </data>
+  <data name="String00241" xml:space="preserve">
+    <value>主旨</value>
+  </data>
+  <data name="String00242" xml:space="preserve">
+    <value>訊息</value>
+  </data>
+  <data name="String00243" xml:space="preserve">
+    <value>字體</value>
+  </data>
+  <data name="String00244" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="String00245" xml:space="preserve">
+    <value>時間格式</value>
+  </data>
+  <data name="String00246" xml:space="preserve">
+    <value>預覽</value>
+  </data>
+  <data name="String00247" xml:space="preserve">
+    <value>自定義背景</value>
+  </data>
+  <data name="String00248" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00249" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00250" xml:space="preserve">
+    <value>- 如果為空,使用預設背景.</value>
+  </data>
+  <data name="String00251" xml:space="preserve">
+    <value>- 洋紅色(RGB255，0，255)顯示透明</value>
+  </data>
+  <data name="String00252" xml:space="preserve">
+    <value>為系統的預設留空.</value>
+  </data>
+  <data name="String00253" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00254" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00255" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="String00256" xml:space="preserve">
+    <value>日誌視窗</value>
+  </data>
+  <data name="String00257" xml:space="preserve">
+    <value>字體</value>
+  </data>
+  <data name="String00258" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="String00259" xml:space="preserve">
+    <value>顏色</value>
+  </data>
+  <data name="String00260" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="String00261" xml:space="preserve">
+    <value>自動換行</value>
+  </data>
+  <data name="String00262" xml:space="preserve">
+    <value>在日誌顯示時間</value>
+  </data>
+  <data name="String00263" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="String00264" xml:space="preserve">
+    <value>為系統的預設留空.</value>
+  </data>
+  <data name="String00265" xml:space="preserve">
+    <value>事項.</value>
+  </data>
+  <data name="String00266" xml:space="preserve">
+    <value>使用'今天'和'昨天'取代日期(用在提示)</value>
+  </data>
+  <data name="String00267" xml:space="preserve">
+    <value>時間格式設置在自定義 -&gt;提示.</value>
+  </data>
+  <data name="String00268" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00269" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00270" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00271" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00272" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00273" xml:space="preserve">
+    <value>時間格式設置在自定義 -&gt;提示.</value>
+  </data>
+  <data name="String00274" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="String00275" xml:space="preserve">
+    <value>預設圖標</value>
+  </data>
+  <data name="String00276" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00277" xml:space="preserve">
+    <value>當雙擊工作列圖標這樣做:</value>
+  </data>
+  <data name="String00278" xml:space="preserve">
+    <value>啟用自定義位置</value>
+  </data>
+  <data name="String00279" xml:space="preserve">
+    <value>圖標雙擊設置自定義 Gmail的位置為所有“開啟 Gmail的菜單項和托盤(如果已啟用).</value>
+  </data>
+  <data name="String00280" xml:space="preserve">
+    <value>新郵件計數器</value>
+  </data>
+  <data name="String00281" xml:space="preserve">
+    <value>顯示未讀郵件托盤圖標提示為:</value>
+  </data>
+  <data name="String00282" xml:space="preserve">
+    <value>顯示帳戶名</value>
+  </data>
+  <data name="String00283" xml:space="preserve">
+    <value>自定義工作列圖標</value>
+  </data>
+  <data name="String00284" xml:space="preserve">
+    <value>啟用自定義工作列圖標</value>
+  </data>
+  <data name="String00285" xml:space="preserve">
+    <value>預設</value>
+  </data>
+  <data name="String00286" xml:space="preserve">
+    <value>新郵件</value>
+  </data>
+  <data name="String00287" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00288" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00289" xml:space="preserve">
+    <value>將覆蓋所有托盤圖標相關的設置(如果已使用預設圖標).</value>
+  </data>
+  <data name="String00290" xml:space="preserve">
+    <value>確保"更改托盤圖標上新的電子郵件... ..."根據"提示"已啟用自定義新郵件圖標!</value>
+  </data>
+  <data name="String00291" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00292" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00293" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00294" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00295" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="String00296" xml:space="preserve">
+    <value>Gmail設定</value>
+  </data>
+  <data name="String00297" xml:space="preserve">
+    <value>回饋地址　</value>
+  </data>
+  <data name="String00298" xml:space="preserve">
+    <value>高級</value>
+  </data>
+  <data name="String00299" xml:space="preserve">
+    <value>在登入前檢查Gmail連線.</value>
+  </data>
+  <data name="String00300" xml:space="preserve">
+    <value>僅啟用檢查新郵件時如果你有不可靠的連接或程序鎖死時.</value>
+  </data>
+  <data name="String00301" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00302" xml:space="preserve">
+    <value>仍啟用調試日誌記錄！</value>
+  </data>
+  <data name="String00303" xml:space="preserve">
+    <value>您要關閉正常使用中的Spiffy.立即關閉?</value>
+  </data>
+  <data name="String00304" xml:space="preserve">
+    <value>按'是'關閉,按'否'繼續.</value>
+  </data>
+  <data name="String00305" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00306" xml:space="preserve">
+    <value>代理</value>
+  </data>
+  <data name="String00307" xml:space="preserve">
+    <value>伺服器設置</value>
+  </data>
+  <data name="String00308" xml:space="preserve">
+    <value>使用代理伺服器</value>
+  </data>
+  <data name="String00309" xml:space="preserve">
+    <value>主機名稱或IP</value>
+  </data>
+  <data name="String00310" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="String00311" xml:space="preserve">
+    <value>代理需要驗證</value>
+  </data>
+  <data name="String00312" xml:space="preserve">
+    <value>使用者名稱</value>
+  </data>
+  <data name="String00313" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="String00314" xml:space="preserve">
+    <value>儲存清除後的密碼.</value>
+  </data>
+  <data name="String00315" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00316" xml:space="preserve">
+    <value>(無主旨)</value>
+  </data>
+  <data name="String00317" xml:space="preserve">
+    <value>未知發件人</value>
+  </data>
+  <data name="String00318" xml:space="preserve">
+    <value>未知地址</value>
+  </data>
+  <data name="String00319" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00320" xml:space="preserve">
+    <value>高級</value>
+  </data>
+  <data name="String00321" xml:space="preserve">
+    <value>調試</value>
+  </data>
+  <data name="String00322" xml:space="preserve">
+    <value>啟用調試日誌記錄到文件</value>
+  </data>
+  <data name="String00323" xml:space="preserve">
+    <value>自定義瀏覽器</value>
+  </data>
+  <data name="String00324" xml:space="preserve">
+    <value>啟用自定義瀏覽器</value>
+  </data>
+  <data name="String00325" xml:space="preserve">
+    <value>Gmail位置</value>
+  </data>
+  <data name="String00326" xml:space="preserve">
+    <value>程序</value>
+  </data>
+  <data name="String00327" xml:space="preserve">
+    <value>選擇一個程序</value>
+  </data>
+  <data name="String00328" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00329" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00330" xml:space="preserve">
+    <value>在自定義模式執行</value>
+  </data>
+  <data name="String00331" xml:space="preserve">
+    <value>在USB模式下執行</value>
+  </data>
+  <data name="String00332" xml:space="preserve">
+    <value>工作目錄</value>
+  </data>
+</root>

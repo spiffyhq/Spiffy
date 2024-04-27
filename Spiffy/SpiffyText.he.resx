@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String00001" xml:space="preserve">
+    <value>Hebrew 0.6.1</value>
+  </data>
+  <data name="String00002" xml:space="preserve">
+    <value>פעילה</value>
+  </data>
+  <data name="String00003" xml:space="preserve">
+    <value>תאריך שיחרור גירסה:</value>
+  </data>
+  <data name="String00004" xml:space="preserve">
+    <value>קיימת גרסת תוכנה חדשה</value>
+  </data>
+  <data name="String00005" xml:space="preserve">
+    <value>מתבצעת שמירת הגדרות</value>
+  </data>
+  <data name="String00006" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00007" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00008" xml:space="preserve">
+    <value>שם משתמש או סיסמא לא מוגדרים</value>
+  </data>
+  <data name="String00009" xml:space="preserve">
+    <value>מתבצעת שמירת חשבונות</value>
+  </data>
+  <data name="String00010" xml:space="preserve">
+    <value>הפעולה בוצעה בהצלחה</value>
+  </data>
+  <data name="String00011" xml:space="preserve">
+    <value>מבוטל</value>
+  </data>
+  <data name="String00012" xml:space="preserve">
+    <value>מבוצעת בדיקת חשבון</value>
+  </data>
+  <data name="String00013" xml:space="preserve">
+    <value>כל</value>
+  </data>
+  <data name="String00014" xml:space="preserve">
+    <value>דקה/ות</value>
+  </data>
+  <data name="String00015" xml:space="preserve">
+    <value>מתבצעת בדיקת דוא"ל חדש!</value>
+  </data>
+  <data name="String00016" xml:space="preserve">
+    <value>התקבל דוא"ל חדש מ</value>
+  </data>
+  <data name="String00017" xml:space="preserve">
+    <value>פרוקסי מבוטל</value>
+  </data>
+  <data name="String00018" xml:space="preserve">
+    <value>פרוקסי פעיל</value>
+  </data>
+  <data name="String00019" xml:space="preserve">
+    <value>התראות קוליות מופעלות</value>
+  </data>
+  <data name="String00020" xml:space="preserve">
+    <value>התראות קוליות מופסקות</value>
+  </data>
+  <data name="String00021" xml:space="preserve">
+    <value>כל החשבונות</value>
+  </data>
+  <data name="String00022" xml:space="preserve">
+    <value>סה"כ דוא"ל/ים שלא נקרא/ו</value>
+  </data>
+  <data name="String00023" xml:space="preserve">
+    <value>בעייה בכתובת/קישור, נסה שנית מאוחר יותר</value>
+  </data>
+  <data name="String00024" xml:space="preserve">
+    <value>שגיאה בהתחברות לג'מייל</value>
+  </data>
+  <data name="String00025" xml:space="preserve">
+    <value>שגיאה בהתחברות לג'מייל, האם את/ה מנותק/ת מהאינטרנט?</value>
+  </data>
+  <data name="String00026" xml:space="preserve">
+    <value>התראות בשורת המשימות פעילות</value>
+  </data>
+  <data name="String00027" xml:space="preserve">
+    <value>הפעולה בוצעה בהצלחה</value>
+  </data>
+  <data name="String00028" xml:space="preserve">
+    <value>אין פרטי חשבון</value>
+  </data>
+  <data name="String00029" xml:space="preserve">
+    <value>שגיאה בהפעלת צליל התראה</value>
+  </data>
+  <data name="String00030" xml:space="preserve">
+    <value>שגיאה בהפעלת תוכנת דוא"ל ברירת מחדל</value>
+  </data>
+  <data name="String00031" xml:space="preserve">
+    <value>אין דוא"ל שלא נקרא עבור</value>
+  </data>
+  <data name="String00032" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="String00033" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="String00034" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="String00035" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="String00036" xml:space="preserve">
+    <value>בדיקת דוא"ל חדש הופסקה</value>
+  </data>
+  <data name="String00037" xml:space="preserve">
+    <value>התחילה בדיקת דוא"ל חדש</value>
+  </data>
+  <data name="String00038" xml:space="preserve">
+    <value>התראות בשורת המשימות מופסקות</value>
+  </data>
+  <data name="String00039" xml:space="preserve">
+    <value>מאתחל טיימר/ים</value>
+  </data>
+  <data name="String00040" xml:space="preserve">
+    <value>שעה/ות</value>
+  </data>
+  <data name="String00041" xml:space="preserve">
+    <value>בעוד</value>
+  </data>
+  <data name="String00042" xml:space="preserve">
+    <value>###OPTIONS 1###</value>
+  </data>
+  <data name="String00043" xml:space="preserve">
+    <value>שחזר חלון (ברירת מחדל)</value>
+  </data>
+  <data name="String00044" xml:space="preserve">
+    <value>בדוק דוא"ל חדש</value>
+  </data>
+  <data name="String00045" xml:space="preserve">
+    <value>פתח ג'מייל בדפדפן</value>
+  </data>
+  <data name="String00046" xml:space="preserve">
+    <value>הזכר לי שוב פעם</value>
+  </data>
+  <data name="String00047" xml:space="preserve">
+    <value>הפעל תוכנת דוא"ל ברירת מחדל</value>
+  </data>
+  <data name="String00048" xml:space="preserve">
+    <value>בחר צליל התראה</value>
+  </data>
+  <data name="String00049" xml:space="preserve">
+    <value>בחר רקע</value>
+  </data>
+  <data name="String00050" xml:space="preserve">
+    <value>בחר סמל במגש המשימות</value>
+  </data>
+  <data name="String00051" xml:space="preserve">
+    <value>קבצי אודיו</value>
+  </data>
+  <data name="String00052" xml:space="preserve">
+    <value>קבצי תמונה</value>
+  </data>
+  <data name="String00053" xml:space="preserve">
+    <value>קבצי סמלים</value>
+  </data>
+  <data name="String00054" xml:space="preserve">
+    <value>?לאתחל לברירת מחדל</value>
+  </data>
+  <data name="String00055" xml:space="preserve">
+    <value>שומר הגדרות</value>
+  </data>
+  <data name="String00056" xml:space="preserve">
+    <value>אזהרה:התראת עיכוב 0, אתחל לברירת מחדל</value>
+  </data>
+  <data name="String00057" xml:space="preserve">
+    <value>אזהרה:קישור ריק, אתחל לברירת מחדל</value>
+  </data>
+  <data name="String00058" xml:space="preserve">
+    <value>ירוק (ברירת מחדל)</value>
+  </data>
+  <data name="String00059" xml:space="preserve">
+    <value>כוכב (ברירת מחדל)</value>
+  </data>
+  <data name="String00060" xml:space="preserve">
+    <value>ירוק</value>
+  </data>
+  <data name="String00061" xml:space="preserve">
+    <value>אפור</value>
+  </data>
+  <data name="String00062" xml:space="preserve">
+    <value>כחול</value>
+  </data>
+  <data name="String00063" xml:space="preserve">
+    <value>סגול</value>
+  </data>
+  <data name="String00064" xml:space="preserve">
+    <value>אדום</value>
+  </data>
+  <data name="String00065" xml:space="preserve">
+    <value>חשבון</value>
+  </data>
+  <data name="String00066" xml:space="preserve">
+    <value>כל הקבצים</value>
+  </data>
+  <data name="String00067" xml:space="preserve">
+    <value>אפשר &amp;צלילים</value>
+  </data>
+  <data name="String00068" xml:space="preserve">
+    <value>אפשר &amp;התראות</value>
+  </data>
+  <data name="String00069" xml:space="preserve">
+    <value>אפשר &amp;טיימרים</value>
+  </data>
+  <data name="String00070" xml:space="preserve">
+    <value>אפשר &amp;פרוקסי</value>
+  </data>
+  <data name="String00071" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00072" xml:space="preserve">
+    <value>#### LOGGING ####</value>
+  </data>
+  <data name="String00073" xml:space="preserve">
+    <value>הבדיקה הופסקה</value>
+  </data>
+  <data name="String00074" xml:space="preserve">
+    <value>התחילה בדיקה</value>
+  </data>
+  <data name="String00075" xml:space="preserve">
+    <value>היום בשעה</value>
+  </data>
+  <data name="String00076" xml:space="preserve">
+    <value>אתמול בשעה</value>
+  </data>
+  <data name="String00077" xml:space="preserve">
+    <value>!ברשותך הגירסה המעודכנת ביותר</value>
+  </data>
+  <data name="String00078" xml:space="preserve">
+    <value>!קיימת גירסה חדשה</value>
+  </data>
+  <data name="String00079" xml:space="preserve">
+    <value>גירסה נוכחית</value>
+  </data>
+  <data name="String00080" xml:space="preserve">
+    <value>גירסה אחרונה</value>
+  </data>
+  <data name="String00081" xml:space="preserve">
+    <value>?האם לגשת כעת לאתר התוכנה</value>
+  </data>
+  <data name="String00082" xml:space="preserve">
+    <value>שגיאה במהלך בדיקת עידכון</value>
+  </data>
+  <data name="String00083" xml:space="preserve">
+    <value>נמצאה גירסה חדשה! לחץ/י כאן כדי להוריד</value>
+  </data>
+  <data name="String00084" xml:space="preserve">
+    <value>נמצאה גירסה חדשה</value>
+  </data>
+  <data name="String00085" xml:space="preserve">
+    <value>בקר באתר התוכנה כדי להוריד את הגירסה החדשה</value>
+  </data>
+  <data name="String00086" xml:space="preserve">
+    <value>לא נקרא</value>
+  </data>
+  <data name="String00087" xml:space="preserve">
+    <value>?האם ברצונך לבקר באתר התוכנה לקבלת מידע נוסף</value>
+  </data>
+  <data name="String00088" xml:space="preserve">
+    <value>שגיאה בפיענוח סיסמא</value>
+  </data>
+  <data name="String00089" xml:space="preserve">
+    <value>אם הוספת/שינית חשבון לאחרונה, נא הקש שוב את הסיסמא ושמור</value>
+  </data>
+  <data name="String00090" xml:space="preserve">
+    <value>בדוק את חלון הכניסה לקבלת מידע נוסף</value>
+  </data>
+  <data name="String00091" xml:space="preserve">
+    <value>אם עידכנת כעת את התוכנה מגירסה 0.4.3 או ישנה יותר, הקש שנית את כל הסיסמאות ושמור</value>
+  </data>
+  <data name="String00092" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00093" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00094" xml:space="preserve">
+    <value>...התרחשה שגיאה בתוכנה, התוכנה תיסגר</value>
+  </data>
+  <data name="String00095" xml:space="preserve">
+    <value>spiffyhq@gmail.com דווח על הבעיה בפורום או שלח דוא"ל ל</value>
+  </data>
+  <data name="String00096" xml:space="preserve">
+    <value>!תודה על תרומתך</value>
+  </data>
+  <data name="String00097" xml:space="preserve">
+    <value>ALT+PrintScreen להעתקת חלון זה השתמש ב</value>
+  </data>
+  <data name="String00098" xml:space="preserve">
+    <value>שגיאה קריטית</value>
+  </data>
+  <data name="String00099" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00100" xml:space="preserve">
+    <value>##### ACCOUNTS ####</value>
+  </data>
+  <data name="String00101" xml:space="preserve">
+    <value>&amp;קובץ</value>
+  </data>
+  <data name="String00102" xml:space="preserve">
+    <value>&amp;אפשרויות</value>
+  </data>
+  <data name="String00103" xml:space="preserve">
+    <value>&amp;עזרה</value>
+  </data>
+  <data name="String00104" xml:space="preserve">
+    <value>&amp;הסתר דוח תוכנה</value>
+  </data>
+  <data name="String00105" xml:space="preserve">
+    <value>&amp;הצג דוח תוכנה</value>
+  </data>
+  <data name="String00106" xml:space="preserve">
+    <value>&amp;נקה דוח תוכנה</value>
+  </data>
+  <data name="String00107" xml:space="preserve">
+    <value>&amp;צא מהתוכנה</value>
+  </data>
+  <data name="String00108" xml:space="preserve">
+    <value>&amp;בדוק דוא"ל כעת</value>
+  </data>
+  <data name="String00109" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="String00110" xml:space="preserve">
+    <value>&amp;אפשר טיימר(ים)</value>
+  </data>
+  <data name="String00111" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="String00112" xml:space="preserve">
+    <value>אפשר &amp;פרוקסי</value>
+  </data>
+  <data name="String00113" xml:space="preserve">
+    <value>&amp;חשבונות</value>
+  </data>
+  <data name="String00114" xml:space="preserve">
+    <value>&amp;הגדרות</value>
+  </data>
+  <data name="String00115" xml:space="preserve">
+    <value>אתר &amp;התוכנה</value>
+  </data>
+  <data name="String00116" xml:space="preserve">
+    <value>&amp;פורומים</value>
+  </data>
+  <data name="String00117" xml:space="preserve">
+    <value>&amp;דווח על בעיה</value>
+  </data>
+  <data name="String00118" xml:space="preserve">
+    <value>&amp;בדוק עידכון</value>
+  </data>
+  <data name="String00119" xml:space="preserve">
+    <value>&amp;תרום עם פייפאל</value>
+  </data>
+  <data name="String00120" xml:space="preserve">
+    <value>&amp;אודות</value>
+  </data>
+  <data name="String00121" xml:space="preserve">
+    <value>בדוק דוא"ל עכשיו</value>
+  </data>
+  <data name="String00122" xml:space="preserve">
+    <value>הצג שנית</value>
+  </data>
+  <data name="String00123" xml:space="preserve">
+    <value>פתח ג'מייל</value>
+  </data>
+  <data name="String00124" xml:space="preserve">
+    <value>טיימר(ים) מבוטלים</value>
+  </data>
+  <data name="String00125" xml:space="preserve">
+    <value>טיימר(ים) פעילים</value>
+  </data>
+  <data name="String00126" xml:space="preserve">
+    <value>פרוקסי מבוטל</value>
+  </data>
+  <data name="String00127" xml:space="preserve">
+    <value>פרוקסי פעיל</value>
+  </data>
+  <data name="String00128" xml:space="preserve">
+    <value>שחזר חלון</value>
+  </data>
+  <data name="String00129" xml:space="preserve">
+    <value>הסתר &amp;תמיד את החלון</value>
+  </data>
+  <data name="String00130" xml:space="preserve">
+    <value>חשבונות&amp;</value>
+  </data>
+  <data name="String00131" xml:space="preserve">
+    <value>הגדרות&amp;</value>
+  </data>
+  <data name="String00132" xml:space="preserve">
+    <value>##### ACCOUNTS ####</value>
+  </data>
+  <data name="String00133" xml:space="preserve">
+    <value>חשבונות</value>
+  </data>
+  <data name="String00134" xml:space="preserve">
+    <value>חשבון</value>
+  </data>
+  <data name="String00135" xml:space="preserve">
+    <value>שם החשבון</value>
+  </data>
+  <data name="String00136" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00137" xml:space="preserve">
+    <value>שם משתמש</value>
+  </data>
+  <data name="String00138" xml:space="preserve">
+    <value>סיסמא</value>
+  </data>
+  <data name="String00139" xml:space="preserve">
+    <value>שדה הסיסמא נמחק לאחר השמירה</value>
+  </data>
+  <data name="String00140" xml:space="preserve">
+    <value>דומיין</value>
+  </data>
+  <data name="String00141" xml:space="preserve">
+    <value>יישומי גוגל</value>
+  </data>
+  <data name="String00142" xml:space="preserve">
+    <value>בדוק דוא"ל חדש כל</value>
+  </data>
+  <data name="String00143" xml:space="preserve">
+    <value>דקה/ות</value>
+  </data>
+  <data name="String00144" xml:space="preserve">
+    <value>בדוק תווית ג'מייל זאת במקום תיבת דואר נכנס</value>
+  </data>
+  <data name="String00145" xml:space="preserve">
+    <value> השתמש בצליל אזהרה מותאם אישית</value>
+  </data>
+  <data name="String00146" xml:space="preserve">
+    <value>אפשרויות</value>
+  </data>
+  <data name="String00147" xml:space="preserve">
+    <value>&amp;אתחל</value>
+  </data>
+  <data name="String00148" xml:space="preserve">
+    <value>?לאתחל את החשבון</value>
+  </data>
+  <data name="String00149" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00150" xml:space="preserve">
+    <value>##### OPTIONS GUI #######</value>
+  </data>
+  <data name="String00151" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="String00152" xml:space="preserve">
+    <value>&amp;אישור</value>
+  </data>
+  <data name="String00153" xml:space="preserve">
+    <value>&amp;ביטול</value>
+  </data>
+  <data name="String00154" xml:space="preserve">
+    <value>&amp;החל</value>
+  </data>
+  <data name="String00155" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="String00156" xml:space="preserve">
+    <value>התראות</value>
+  </data>
+  <data name="String00157" xml:space="preserve">
+    <value>התאמה אישית</value>
+  </data>
+  <data name="String00158" xml:space="preserve">
+    <value>רשת</value>
+  </data>
+  <data name="String00159" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00160" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00161" xml:space="preserve">
+    <value>בחר תת קטגוריה</value>
+  </data>
+  <data name="String00162" xml:space="preserve">
+    <value>חלון ראשי</value>
+  </data>
+  <data name="String00163" xml:space="preserve">
+    <value>טקסט</value>
+  </data>
+  <data name="String00164" xml:space="preserve">
+    <value>התראות</value>
+  </data>
+  <data name="String00165" xml:space="preserve">
+    <value>סמלים</value>
+  </data>
+  <data name="String00166" xml:space="preserve">
+    <value>עכבר</value>
+  </data>
+  <data name="String00167" xml:space="preserve">
+    <value>פרוקסי</value>
+  </data>
+  <data name="String00168" xml:space="preserve">
+    <value>גוגל</value>
+  </data>
+  <data name="String00169" xml:space="preserve">
+    <value>מתקדם</value>
+  </data>
+  <data name="String00170" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00171" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00172" xml:space="preserve">
+    <value>התראות</value>
+  </data>
+  <data name="String00173" xml:space="preserve">
+    <value>אפשרויות</value>
+  </data>
+  <data name="String00174" xml:space="preserve">
+    <value>הצג התראה בקבלת דוא"ל חדש במשך</value>
+  </data>
+  <data name="String00175" xml:space="preserve">
+    <value>שניה/ות</value>
+  </data>
+  <data name="String00176" xml:space="preserve">
+    <value>הצג התראה עד שהדוא"ל יקרא באתר ג'מייל, אם אפ' לא מסומנת התראות יוצגו פעם אחת</value>
+  </data>
+  <data name="String00177" xml:space="preserve">
+    <value>הצג מקסימום</value>
+  </data>
+  <data name="String00178" xml:space="preserve">
+    <value>אפשרויות נוספות</value>
+  </data>
+  <data name="String00179" xml:space="preserve">
+    <value>כווץ/אסוף ביחד את ההתראות, אם כולן מוצגות באותו המקום</value>
+  </data>
+  <data name="String00180" xml:space="preserve">
+    <value>הצג התראות כשקופיות מתחלפות במקום דהויות</value>
+  </data>
+  <data name="String00181" xml:space="preserve">
+    <value>הצג:</value>
+  </data>
+  <data name="String00182" xml:space="preserve">
+    <value>מילי שניות</value>
+  </data>
+  <data name="String00183" xml:space="preserve">
+    <value>הסתר:</value>
+  </data>
+  <data name="String00184" xml:space="preserve">
+    <value>סמל שורת המשימות</value>
+  </data>
+  <data name="String00185" xml:space="preserve">
+    <value>שנה סמל בשורת המשימות בקבלת דוא"ל חדש והשתמש בסמל הבא</value>
+  </data>
+  <data name="String00186" xml:space="preserve">
+    <value>צליל התראה בקבלת דוא"ל חדש</value>
+  </data>
+  <data name="String00187" xml:space="preserve">
+    <value>אפשר צלילי התראה</value>
+  </data>
+  <data name="String00188" xml:space="preserve">
+    <value>התראה/ות עבור כל חשבון, בכל בדיקה</value>
+  </data>
+  <data name="String00189" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00190" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00191" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00192" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="String00193" xml:space="preserve">
+    <value>אפשרויות הפעלה</value>
+  </data>
+  <data name="String00194" xml:space="preserve">
+    <value>הפעל את התוכנה בהפעלת המחשב</value>
+  </data>
+  <data name="String00195" xml:space="preserve">
+    <value>הסתר את התוכנה בשורת המשימות בהפעלת המחשב</value>
+  </data>
+  <data name="String00196" xml:space="preserve">
+    <value>בדוק דוא"ל חדש בהפעלת המחשב</value>
+  </data>
+  <data name="String00197" xml:space="preserve">
+    <value>אפשרות פעילה רק כשמסומן 'הסתר תוכנה בשורת המשימות בהפעלת המחשב'</value>
+  </data>
+  <data name="String00198" xml:space="preserve">
+    <value>טיימרים לבדיקת דוא"ל</value>
+  </data>
+  <data name="String00199" xml:space="preserve">
+    <value>אם אפשרות מבוטלת, החל בדיקת דוא"ל לאחר</value>
+  </data>
+  <data name="String00200" xml:space="preserve">
+    <value>שעה/ות</value>
+  </data>
+  <data name="String00201" xml:space="preserve">
+    <value>הגדרות נוספות</value>
+  </data>
+  <data name="String00202" xml:space="preserve">
+    <value>מזער לשורת המשימות</value>
+  </data>
+  <data name="String00203" xml:space="preserve">
+    <value>סגור לשורת המשימות</value>
+  </data>
+  <data name="String00204" xml:space="preserve">
+    <value>Language / שפה</value>
+  </data>
+  <data name="String00205" xml:space="preserve">
+    <value>*נדרשת הפעלת התוכנה מחדש</value>
+  </data>
+  <data name="String00206" xml:space="preserve">
+    <value>עידכונים</value>
+  </data>
+  <data name="String00207" xml:space="preserve">
+    <value>בדוק גירסה חדשה בהפעלת התוכנה</value>
+  </data>
+  <data name="String00208" xml:space="preserve">
+    <value>חלון ראשי</value>
+  </data>
+  <data name="String00209" xml:space="preserve">
+    <value>שקיפות</value>
+  </data>
+  <data name="String00210" xml:space="preserve">
+    <value>רמת האטימות</value>
+  </data>
+  <data name="String00211" xml:space="preserve">
+    <value>הגדרות נוספות</value>
+  </data>
+  <data name="String00212" xml:space="preserve">
+    <value>חלון תמיד עליון</value>
+  </data>
+  <data name="String00213" xml:space="preserve">
+    <value>הצג סרגל תפריט</value>
+  </data>
+  <data name="String00214" xml:space="preserve">
+    <value>הצג סרגל כלים</value>
+  </data>
+  <data name="String00215" xml:space="preserve">
+    <value>כותרת חלון ראשי/סמל שורת משימות</value>
+  </data>
+  <data name="String00216" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00217" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00218" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00219" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00220" xml:space="preserve">
+    <value>עכבר</value>
+  </data>
+  <data name="String00221" xml:space="preserve">
+    <value>אפשרויות</value>
+  </data>
+  <data name="String00222" xml:space="preserve">
+    <value>הצג התראה גם במקרה שסמן העכבר נמצא עליה</value>
+  </data>
+  <data name="String00223" xml:space="preserve">
+    <value>הצג את ההתראה פעם נוספת כשלוחצים עליה עם סמן העכבר</value>
+  </data>
+  <data name="String00224" xml:space="preserve">
+    <value>ההתראה "אזור סגור" ניתנת ללחיצה</value>
+  </data>
+  <data name="String00225" xml:space="preserve">
+    <value>ההתראה "שורת הודעה" ניתנת ללחיצה. לחיצה עליה מעבירה לתיקיית דואר ניכנס</value>
+  </data>
+  <data name="String00226" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00227" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00228" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00229" xml:space="preserve">
+    <value>התראות בשורת המשימות</value>
+  </data>
+  <data name="String00230" xml:space="preserve">
+    <value>אפשר התראות מותאמות בשורת המשימות</value>
+  </data>
+  <data name="String00231" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="String00232" xml:space="preserve">
+    <value>אתחל</value>
+  </data>
+  <data name="String00233" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="String00234" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="String00235" xml:space="preserve">
+    <value>רוחב</value>
+  </data>
+  <data name="String00236" xml:space="preserve">
+    <value>גובה</value>
+  </data>
+  <data name="String00237" xml:space="preserve">
+    <value>אזור סגור</value>
+  </data>
+  <data name="String00238" xml:space="preserve">
+    <value>כותרת</value>
+  </data>
+  <data name="String00239" xml:space="preserve">
+    <value>זמן</value>
+  </data>
+  <data name="String00240" xml:space="preserve">
+    <value>מ...</value>
+  </data>
+  <data name="String00241" xml:space="preserve">
+    <value>נושא</value>
+  </data>
+  <data name="String00242" xml:space="preserve">
+    <value>הודעה</value>
+  </data>
+  <data name="String00243" xml:space="preserve">
+    <value>גופן</value>
+  </data>
+  <data name="String00244" xml:space="preserve">
+    <value>פיקסלים</value>
+  </data>
+  <data name="String00245" xml:space="preserve">
+    <value>פורמט זמן</value>
+  </data>
+  <data name="String00246" xml:space="preserve">
+    <value>תצוגה מקדימה</value>
+  </data>
+  <data name="String00247" xml:space="preserve">
+    <value>רקע מותאם אישית</value>
+  </data>
+  <data name="String00248" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00249" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00250" xml:space="preserve">
+    <value>- אם השדה ריק, רקע ברירת מחדל פעיל</value>
+  </data>
+  <data name="String00251" xml:space="preserve">
+    <value>- צבע מג'נטה מוצג כשקוף (RGB 255, 0, 255)</value>
+  </data>
+  <data name="String00252" xml:space="preserve">
+    <value>השאר שדה ריק עבור ברירת מחדל של המערכת</value>
+  </data>
+  <data name="String00253" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00254" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00255" xml:space="preserve">
+    <value>טקסט</value>
+  </data>
+  <data name="String00256" xml:space="preserve">
+    <value>חלון פתיחה</value>
+  </data>
+  <data name="String00257" xml:space="preserve">
+    <value>גופן</value>
+  </data>
+  <data name="String00258" xml:space="preserve">
+    <value>נקודות</value>
+  </data>
+  <data name="String00259" xml:space="preserve">
+    <value>צבע</value>
+  </data>
+  <data name="String00260" xml:space="preserve">
+    <value>רקע</value>
+  </data>
+  <data name="String00261" xml:space="preserve">
+    <value>גלישת שורות</value>
+  </data>
+  <data name="String00262" xml:space="preserve">
+    <value>הצג חותמת זמן בחלון ההתחברות</value>
+  </data>
+  <data name="String00263" xml:space="preserve">
+    <value>פורמט</value>
+  </data>
+  <data name="String00264" xml:space="preserve">
+    <value>השאר/י ריק - ברירת מחדל מערכת</value>
+  </data>
+  <data name="String00265" xml:space="preserve">
+    <value>הגדרות נוספות</value>
+  </data>
+  <data name="String00266" xml:space="preserve">
+    <value>השתמש ב'היום' ו'אתמול' במקום בתאריך (שימושי בהתראות)</value>
+  </data>
+  <data name="String00267" xml:space="preserve">
+    <value>שינוי פורמט זמן בהגדרות--&gt;התראה בשורת משימות</value>
+  </data>
+  <data name="String00268" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00269" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00270" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00271" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00272" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00273" xml:space="preserve">
+    <value>סמל שורת המשימות</value>
+  </data>
+  <data name="String00274" xml:space="preserve">
+    <value>אפשרויות</value>
+  </data>
+  <data name="String00275" xml:space="preserve">
+    <value>סמל ברירת מחדל</value>
+  </data>
+  <data name="String00276" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="String00277" xml:space="preserve">
+    <value>בלחיצה כפולה על סמל שורת משימות:</value>
+  </data>
+  <data name="String00278" xml:space="preserve">
+    <value>אפשר התאמת מיקום</value>
+  </data>
+  <data name="String00279" xml:space="preserve">
+    <value>אפשרות זו מגדירה מיקומי ג'מייל עבור כל קטגוריה בתפריט 'פתח ג'מייל' ועבור לחיצה על סמל שורת משימות</value>
+  </data>
+  <data name="String00280" xml:space="preserve">
+    <value>מונה דוא"ל חדש</value>
+  </data>
+  <data name="String00281" xml:space="preserve">
+    <value>הצג הודעות בשורת המשימות עבור החשבון/ות הבאים:</value>
+  </data>
+  <data name="String00282" xml:space="preserve">
+    <value>הצג שם משתמש</value>
+  </data>
+  <data name="String00283" xml:space="preserve">
+    <value>סמל שורת משימות מותאמים אישית</value>
+  </data>
+  <data name="String00284" xml:space="preserve">
+    <value>אפשר סמלים מותאמים אישית</value>
+  </data>
+  <data name="String00285" xml:space="preserve">
+    <value>ברירת מחדל</value>
+  </data>
+  <data name="String00286" xml:space="preserve">
+    <value>דוא"ל חדש</value>
+  </data>
+  <data name="String00287" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00288" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00289" xml:space="preserve">
+    <value>אפשרות זו עוקפת את כל ההגדרות של 'סמל שורת המשימות' (אם לא מסומן, סמלי ברירת מחדל בשימוש)</value>
+  </data>
+  <data name="String00290" xml:space="preserve">
+    <value>בדוק שאפשרות "שנה סמל שורת משימות בקבלת דוא"ל חדש" שנמצאת באפשרות "התראות" פעילה כדי להשתמש בסמל דוא"ל חדש</value>
+  </data>
+  <data name="String00291" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00292" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00293" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00294" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00295" xml:space="preserve">
+    <value>גוגל</value>
+  </data>
+  <data name="String00296" xml:space="preserve">
+    <value>הגדרות ג'מייל</value>
+  </data>
+  <data name="String00297" xml:space="preserve">
+    <value>כתובת</value>
+  </data>
+  <data name="String00298" xml:space="preserve">
+    <value>מתקדם</value>
+  </data>
+  <data name="String00299" xml:space="preserve">
+    <value>בדוק אם אתר ג'מייל פעיל לפני ההתחברות</value>
+  </data>
+  <data name="String00300" xml:space="preserve">
+    <value>אפשר רק במקרה שיש לך חיבור לא יציב או תוכנות נעילה בזמן בדיקת דוא"ל חדש</value>
+  </data>
+  <data name="String00301" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00302" xml:space="preserve">
+    <value>!ניפוי באגים בכניסה עדין פעיל</value>
+  </data>
+  <data name="String00303" xml:space="preserve">
+    <value>?יש לבטל אפשרות זאת לשימוש רגיל בתוכנה. האם לבטל</value>
+  </data>
+  <data name="String00304" xml:space="preserve">
+    <value>לחץ 'כן' לביטול, או לחץ 'לא' להמשך</value>
+  </data>
+  <data name="String00305" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00306" xml:space="preserve">
+    <value>פרוקסי</value>
+  </data>
+  <data name="String00307" xml:space="preserve">
+    <value>הגדרות השרת</value>
+  </data>
+  <data name="String00308" xml:space="preserve">
+    <value>השתמש בשרת פרוקסי</value>
+  </data>
+  <data name="String00309" xml:space="preserve">
+    <value>IP או שם המארח</value>
+  </data>
+  <data name="String00310" xml:space="preserve">
+    <value>פורט</value>
+  </data>
+  <data name="String00311" xml:space="preserve">
+    <value>פרוקסי דורש אימות</value>
+  </data>
+  <data name="String00312" xml:space="preserve">
+    <value>שם משתמש</value>
+  </data>
+  <data name="String00313" xml:space="preserve">
+    <value>סיסמא</value>
+  </data>
+  <data name="String00314" xml:space="preserve">
+    <value>שדות עם הסיסמאות ימחקו לאחר שמירה</value>
+  </data>
+  <data name="String00315" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00316" xml:space="preserve">
+    <value>(אין נושא)</value>
+  </data>
+  <data name="String00317" xml:space="preserve">
+    <value>שולח לא ידוע</value>
+  </data>
+  <data name="String00318" xml:space="preserve">
+    <value>כתובת לא ידועה</value>
+  </data>
+  <data name="String00319" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00320" xml:space="preserve">
+    <value>מתקדם</value>
+  </data>
+  <data name="String00321" xml:space="preserve">
+    <value>ניפוי באגים</value>
+  </data>
+  <data name="String00322" xml:space="preserve">
+    <value>אפשר ניפוי באגים בהפעלת קובץ</value>
+  </data>
+  <data name="String00323" xml:space="preserve">
+    <value>דפדפן מותאם אישית</value>
+  </data>
+  <data name="String00324" xml:space="preserve">
+    <value>אפשר דפדפן מותאם אישית</value>
+  </data>
+  <data name="String00325" xml:space="preserve">
+    <value>מיקום ג'מייל</value>
+  </data>
+  <data name="String00326" xml:space="preserve">
+    <value>תוכנות</value>
+  </data>
+  <data name="String00327" xml:space="preserve">
+    <value>בחר תוכנה</value>
+  </data>
+  <data name="String00328" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00329" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00330" xml:space="preserve">
+    <value>עבודה במצב מותאם אישית</value>
+  </data>
+  <data name="String00331" xml:space="preserve">
+    <value>USB עבודה במצב</value>
+  </data>
+  <data name="String00332" xml:space="preserve">
+    <value>ספריית עבודה</value>
+  </data>
+</root>

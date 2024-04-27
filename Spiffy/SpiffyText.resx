@@ -1,0 +1,1400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String00001" xml:space="preserve">
+    <value>English 0.6.1</value>
+    <comment>language and version</comment>
+  </data>
+  <data name="String00002" xml:space="preserve">
+    <value>started</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00003" xml:space="preserve">
+    <value>Build</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00004" xml:space="preserve">
+    <value>New version detected</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00005" xml:space="preserve">
+    <value>Saving settings</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00006" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00007" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00008" xml:space="preserve">
+    <value>Empty username or password detected</value>
+    <comment>logwindow, accounts</comment>
+  </data>
+  <data name="String00009" xml:space="preserve">
+    <value>Saving accounts</value>
+    <comment>logwindow, accounts</comment>
+  </data>
+  <data name="String00010" xml:space="preserve">
+    <value>Done!</value>
+    <comment>logwindow, accounts</comment>
+  </data>
+  <data name="String00011" xml:space="preserve">
+    <value>disabled</value>
+    <comment>logwindow, accounts</comment>
+  </data>
+  <data name="String00012" xml:space="preserve">
+    <value>Checking</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00013" xml:space="preserve">
+    <value>every</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00014" xml:space="preserve">
+    <value>minute(s)</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00015" xml:space="preserve">
+    <value>Checking for new mail now!</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00016" xml:space="preserve">
+    <value>New mail from</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00017" xml:space="preserve">
+    <value>Proxy disabled</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00018" xml:space="preserve">
+    <value>Proxy enabled</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00019" xml:space="preserve">
+    <value>Sound alert enabled</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00020" xml:space="preserve">
+    <value>Sound alert disabled</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00021" xml:space="preserve">
+    <value>All Accounts</value>
+    <comment>tray icon unread message</comment>
+  </data>
+  <data name="String00022" xml:space="preserve">
+    <value>Total unread for</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00023" xml:space="preserve">
+    <value>Feed trouble, try again later</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00024" xml:space="preserve">
+    <value>Error connecting to Gmail</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00025" xml:space="preserve">
+    <value>Error connecting to Gmail, are you offline?</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00026" xml:space="preserve">
+    <value>Tray alert enabled</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00027" xml:space="preserve">
+    <value>Done!</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00028" xml:space="preserve">
+    <value>No account info!</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00029" xml:space="preserve">
+    <value>Error playing alert sound!</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00030" xml:space="preserve">
+    <value>Error starting default mail client!</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00031" xml:space="preserve">
+    <value>No unread mail for</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00032" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00033" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00034" xml:space="preserve">
+    <value>Thanks!</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00035" xml:space="preserve">
+    <value>Click 'OK' to continue to PayPal!</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00036" xml:space="preserve">
+    <value>Stopped checking for new mail.</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00037" xml:space="preserve">
+    <value>Started checking for new mail.</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00038" xml:space="preserve">
+    <value>Tray alert disabled</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00039" xml:space="preserve">
+    <value>Restarting timer(s)</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00040" xml:space="preserve">
+    <value>in</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00041" xml:space="preserve">
+    <value>hour(s)</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00042" xml:space="preserve">
+    <value>###OPTIONS 1###</value>
+  </data>
+  <data name="String00043" xml:space="preserve">
+    <value>Restore Window (default)</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00044" xml:space="preserve">
+    <value>Check for New Mail</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00045" xml:space="preserve">
+    <value>Open Gmail in Browser</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00046" xml:space="preserve">
+    <value>Tell Me Again</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00047" xml:space="preserve">
+    <value>Start Default Mail Client</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00048" xml:space="preserve">
+    <value>Select a sound alert</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00049" xml:space="preserve">
+    <value>Select a notifier background</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00050" xml:space="preserve">
+    <value>Select a tray icon</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00051" xml:space="preserve">
+    <value>Audio Files</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00052" xml:space="preserve">
+    <value>Image Files</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00053" xml:space="preserve">
+    <value>Icon Files</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00054" xml:space="preserve">
+    <value>Reset to default?</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00055" xml:space="preserve">
+    <value>Saving settings</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00056" xml:space="preserve">
+    <value>Warning: alert delay 0, reset to default</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00057" xml:space="preserve">
+    <value>Warning: feed url empty, reset to default</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00058" xml:space="preserve">
+    <value>Green (default)</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00059" xml:space="preserve">
+    <value>Star (default)</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00060" xml:space="preserve">
+    <value>Green</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00061" xml:space="preserve">
+    <value>Gray</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00062" xml:space="preserve">
+    <value>Blue</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00063" xml:space="preserve">
+    <value>Purple</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00064" xml:space="preserve">
+    <value>Red</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00065" xml:space="preserve">
+    <value>Account</value>
+    <comment>options - dropdown menus</comment>
+  </data>
+  <data name="String00066" xml:space="preserve">
+    <value>All files</value>
+    <comment>options - misc</comment>
+  </data>
+  <data name="String00067" xml:space="preserve">
+    <value>Enable &amp;Sounds</value>
+    <comment>tray icon menu, options</comment>
+  </data>
+  <data name="String00068" xml:space="preserve">
+    <value>Enable &amp;Alerts</value>
+    <comment>tray icon menu, options</comment>
+  </data>
+  <data name="String00069" xml:space="preserve">
+    <value>Enable &amp;Timer(s)</value>
+    <comment>tray icon menu, options</comment>
+  </data>
+  <data name="String00070" xml:space="preserve">
+    <value>Enable &amp;Proxy</value>
+    <comment>tray icon menu, options</comment>
+  </data>
+  <data name="String00071" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00072" xml:space="preserve">
+    <value>#### LOGGING ####</value>
+  </data>
+  <data name="String00073" xml:space="preserve">
+    <value>Stopped checking</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00074" xml:space="preserve">
+    <value>Started checking</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00075" xml:space="preserve">
+    <value>Today at</value>
+    <comment>alert text</comment>
+  </data>
+  <data name="String00076" xml:space="preserve">
+    <value>Yesterday at</value>
+    <comment>alert text</comment>
+  </data>
+  <data name="String00077" xml:space="preserve">
+    <value>You have the latest version!</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00078" xml:space="preserve">
+    <value>New version available!</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00079" xml:space="preserve">
+    <value>This version</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00080" xml:space="preserve">
+    <value>Latest version</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00081" xml:space="preserve">
+    <value>Go to Spiffy's website now?</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00082" xml:space="preserve">
+    <value>Error checking for update</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00083" xml:space="preserve">
+    <value>New version available! Click here to download.</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00084" xml:space="preserve">
+    <value>New version found</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00085" xml:space="preserve">
+    <value>Visit Spiffy's website to download!</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00086" xml:space="preserve">
+    <value>unread</value>
+    <comment>logwindow</comment>
+  </data>
+  <data name="String00087" xml:space="preserve">
+    <value>Do you want to visit Spiffy's website for more information?</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00088" xml:space="preserve">
+    <value>Error decrypting password!</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00089" xml:space="preserve">
+    <value>If you recently added or modified an account, please re-enter the password and Save.</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00090" xml:space="preserve">
+    <value>Check the Log window for more details.</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00091" xml:space="preserve">
+    <value>If you just upgraded from version 0.4.3 or earlier, re-enter ALL your accounts passwords and Save.</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00092" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00093" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00094" xml:space="preserve">
+    <value>Spiffy encountered an error and has to close...</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00095" xml:space="preserve">
+    <value>Please report this to spiffyhq@gmail.com or post a message on the forums.</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00096" xml:space="preserve">
+    <value>Thanks for your support!</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00097" xml:space="preserve">
+    <value>(use ALT+PrintScreen to copy this box)</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00098" xml:space="preserve">
+    <value>Fatal Error</value>
+    <comment>messagebox text</comment>
+  </data>
+  <data name="String00099" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00100" xml:space="preserve">
+    <value>### MAIN WINDOW GUI ####</value>
+  </data>
+  <data name="String00101" xml:space="preserve">
+    <value>&amp;File</value>
+    <comment>menustrip</comment>
+  </data>
+  <data name="String00102" xml:space="preserve">
+    <value>&amp;Options</value>
+    <comment>menustrip</comment>
+  </data>
+  <data name="String00103" xml:space="preserve">
+    <value>&amp;Help</value>
+    <comment>menustrip</comment>
+  </data>
+  <data name="String00104" xml:space="preserve">
+    <value>&amp;Hide Log</value>
+    <comment>file menu</comment>
+  </data>
+  <data name="String00105" xml:space="preserve">
+    <value>&amp;Show Log</value>
+    <comment>file menu</comment>
+  </data>
+  <data name="String00106" xml:space="preserve">
+    <value>&amp;Clear Log</value>
+    <comment>file menu</comment>
+  </data>
+  <data name="String00107" xml:space="preserve">
+    <value>&amp;Quit Spiffy</value>
+    <comment>file menu</comment>
+  </data>
+  <data name="String00108" xml:space="preserve">
+    <value>Check &amp;Now</value>
+    <comment>options menu</comment>
+  </data>
+  <data name="String00109" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00110" xml:space="preserve">
+    <value>Enable &amp;Timer(s)</value>
+    <comment>options menu</comment>
+  </data>
+  <data name="String00111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00112" xml:space="preserve">
+    <value>Enable &amp;Proxy</value>
+    <comment>options menu</comment>
+  </data>
+  <data name="String00113" xml:space="preserve">
+    <value>&amp;Accounts</value>
+    <comment>options menu</comment>
+  </data>
+  <data name="String00114" xml:space="preserve">
+    <value>&amp;Configuration</value>
+    <comment>options menu</comment>
+  </data>
+  <data name="String00115" xml:space="preserve">
+    <value>Spiffy &amp;Website</value>
+    <comment>help menu</comment>
+  </data>
+  <data name="String00116" xml:space="preserve">
+    <value>Spiffy &amp;Forums</value>
+    <comment>help menu</comment>
+  </data>
+  <data name="String00117" xml:space="preserve">
+    <value>&amp;Report a Problem</value>
+    <comment>help menu</comment>
+  </data>
+  <data name="String00118" xml:space="preserve">
+    <value>&amp;Check for Update</value>
+    <comment>help menu</comment>
+  </data>
+  <data name="String00119" xml:space="preserve">
+    <value>&amp;Donate with PayPal</value>
+    <comment>help menu</comment>
+  </data>
+  <data name="String00120" xml:space="preserve">
+    <value>&amp;About Spiffy</value>
+    <comment>help menu</comment>
+  </data>
+  <data name="String00121" xml:space="preserve">
+    <value>Check &amp;Now</value>
+    <comment>toolstrip and tray icon menu</comment>
+  </data>
+  <data name="String00122" xml:space="preserve">
+    <value>&amp;Tell Me Again</value>
+    <comment>toolstrip and tray icon menu</comment>
+  </data>
+  <data name="String00123" xml:space="preserve">
+    <value>Open &amp;Gmail</value>
+    <comment>toolstrip and tray icon menu</comment>
+  </data>
+  <data name="String00124" xml:space="preserve">
+    <value>Timer(s) Disabled</value>
+    <comment>toolstrip</comment>
+  </data>
+  <data name="String00125" xml:space="preserve">
+    <value>Timer(s) Enabled</value>
+    <comment>toolstrip</comment>
+  </data>
+  <data name="String00126" xml:space="preserve">
+    <value>Proxy Disabled</value>
+    <comment>toolstrip</comment>
+  </data>
+  <data name="String00127" xml:space="preserve">
+    <value>Proxy Enabled</value>
+    <comment>toolstrip</comment>
+  </data>
+  <data name="String00128" xml:space="preserve">
+    <value>Restore &amp;Window</value>
+    <comment>tray icon menu</comment>
+  </data>
+  <data name="String00129" xml:space="preserve">
+    <value>Always &amp;Hide Window</value>
+    <comment>tray icon menu, options</comment>
+  </data>
+  <data name="String00130" xml:space="preserve">
+    <value>&amp;Accounts</value>
+    <comment>tray icon menu</comment>
+  </data>
+  <data name="String00131" xml:space="preserve">
+    <value>&amp;Configuration</value>
+    <comment>tray icon menu</comment>
+  </data>
+  <data name="String00132" xml:space="preserve">
+    <value>##### ACCOUNTS ####</value>
+  </data>
+  <data name="String00133" xml:space="preserve">
+    <value>Accounts</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00134" xml:space="preserve">
+    <value>Account</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00135" xml:space="preserve">
+    <value>Account Name</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00136" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00137" xml:space="preserve">
+    <value>Username</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00138" xml:space="preserve">
+    <value>Password</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00139" xml:space="preserve">
+    <value>Password field is cleared after Save.</value>
+    <comment>accounts form, tooltip</comment>
+  </data>
+  <data name="String00140" xml:space="preserve">
+    <value>Domain</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00141" xml:space="preserve">
+    <value>Google Apps</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00142" xml:space="preserve">
+    <value>Check for unread mail every </value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00143" xml:space="preserve">
+    <value>minute(s).</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00144" xml:space="preserve">
+    <value>Check this Gmail Label instead in Inbox</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00145" xml:space="preserve">
+    <value>Use custom sound alert</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00146" xml:space="preserve">
+    <value>Options</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00147" xml:space="preserve">
+    <value>&amp;Reset</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00148" xml:space="preserve">
+    <value>Reset this account?</value>
+    <comment>accounts form</comment>
+  </data>
+  <data name="String00149" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00150" xml:space="preserve">
+    <value>##### OPTIONS GUI #######</value>
+  </data>
+  <data name="String00151" xml:space="preserve">
+    <value>Configuration</value>
+    <comment>options window title</comment>
+  </data>
+  <data name="String00152" xml:space="preserve">
+    <value>&amp;OK</value>
+    <comment>options, buttons</comment>
+  </data>
+  <data name="String00153" xml:space="preserve">
+    <value>&amp;Cancel</value>
+    <comment>options, buttons</comment>
+  </data>
+  <data name="String00154" xml:space="preserve">
+    <value>&amp;Apply</value>
+    <comment>options, buttons</comment>
+  </data>
+  <data name="String00155" xml:space="preserve">
+    <value>General</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00156" xml:space="preserve">
+    <value>Alerts</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00157" xml:space="preserve">
+    <value>Customize</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00158" xml:space="preserve">
+    <value>Network</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00159" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00160" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00161" xml:space="preserve">
+    <value>Select a sub category</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00162" xml:space="preserve">
+    <value>Main Window</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00163" xml:space="preserve">
+    <value>Text</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00164" xml:space="preserve">
+    <value>Alert</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00165" xml:space="preserve">
+    <value>Icon</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00166" xml:space="preserve">
+    <value>Mouse</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00167" xml:space="preserve">
+    <value>Proxy</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00168" xml:space="preserve">
+    <value>Google</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00169" xml:space="preserve">
+    <value>Advanced</value>
+    <comment>options, tree</comment>
+  </data>
+  <data name="String00170" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00171" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00172" xml:space="preserve">
+    <value>Alerts</value>
+    <comment>options, alerts, title</comment>
+  </data>
+  <data name="String00173" xml:space="preserve">
+    <value>Options</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00174" xml:space="preserve">
+    <value>Show alert on new e-mail and show it for</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00175" xml:space="preserve">
+    <value>second(s).</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00176" xml:space="preserve">
+    <value>Show alert until e-mail is read in Gmail, if unchecked alerts are shown once.</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00177" xml:space="preserve">
+    <value>Show a maximum of</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00178" xml:space="preserve">
+    <value>Behavior</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00179" xml:space="preserve">
+    <value>Stack alerts, if unchecked alerts are all shown in the same place.</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00180" xml:space="preserve">
+    <value>Show alert Sliding instead of Fading</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00181" xml:space="preserve">
+    <value>Show in</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00182" xml:space="preserve">
+    <value>ms</value>
+    <comment>options, alerts (milliseconds)</comment>
+  </data>
+  <data name="String00183" xml:space="preserve">
+    <value>Hide in</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00184" xml:space="preserve">
+    <value>Tray Icon</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00185" xml:space="preserve">
+    <value>Change tray icon on new e-mail, and use this icon:</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00186" xml:space="preserve">
+    <value>Play sound alert on new e-mail</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00187" xml:space="preserve">
+    <value>Enable sound alert</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00188" xml:space="preserve">
+    <value>alert(s) for each account, every check.</value>
+    <comment>options, alerts</comment>
+  </data>
+  <data name="String00189" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00190" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00191" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00192" xml:space="preserve">
+    <value>General</value>
+    <comment>options, general, title</comment>
+  </data>
+  <data name="String00193" xml:space="preserve">
+    <value>Startup options</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00194" xml:space="preserve">
+    <value>Run Spiffy when I log on to Windows</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00195" xml:space="preserve">
+    <value>Hide Spiffy in tray on startup</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00196" xml:space="preserve">
+    <value>Check for new mail on startup</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00197" xml:space="preserve">
+    <value>Works only when "Hide Spiffy in Tray on Startup" is checked.</value>
+    <comment>options, general, tooltip</comment>
+  </data>
+  <data name="String00198" xml:space="preserve">
+    <value>Mail checking Timers</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00199" xml:space="preserve">
+    <value>When disabled, restart checking for new mail after </value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00200" xml:space="preserve">
+    <value>hour(s).</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00201" xml:space="preserve">
+    <value>Misc.</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00202" xml:space="preserve">
+    <value>Minimize to Tray</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00203" xml:space="preserve">
+    <value>Close to Tray</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00204" xml:space="preserve">
+    <value>Language</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00205" xml:space="preserve">
+    <value>* Restart Spiffy when changing language!</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00206" xml:space="preserve">
+    <value>Updates</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00207" xml:space="preserve">
+    <value>Check for new version on Startup</value>
+    <comment>options, general</comment>
+  </data>
+  <data name="String00208" xml:space="preserve">
+    <value>Main Window</value>
+    <comment>options, mainwindow</comment>
+  </data>
+  <data name="String00209" xml:space="preserve">
+    <value>Translucency</value>
+    <comment>options, mainwindow</comment>
+  </data>
+  <data name="String00210" xml:space="preserve">
+    <value>Opacity</value>
+    <comment>options, mainwindow</comment>
+  </data>
+  <data name="String00211" xml:space="preserve">
+    <value>Misc.</value>
+    <comment>options, mainwindow</comment>
+  </data>
+  <data name="String00212" xml:space="preserve">
+    <value>Always On Top</value>
+    <comment>options, mainwindow</comment>
+  </data>
+  <data name="String00213" xml:space="preserve">
+    <value>Show Menu Bar</value>
+    <comment>options, mainwindow</comment>
+  </data>
+  <data name="String00214" xml:space="preserve">
+    <value>Show Tool Bar</value>
+    <comment>options, mainwindow</comment>
+  </data>
+  <data name="String00215" xml:space="preserve">
+    <value>Title Bar / Tray Tooltip Text</value>
+    <comment>options, mainwindow</comment>
+  </data>
+  <data name="String00216" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00217" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00218" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00219" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00220" xml:space="preserve">
+    <value>Mouse</value>
+    <comment>options, mouse</comment>
+  </data>
+  <data name="String00221" xml:space="preserve">
+    <value>Options</value>
+    <comment>options, mouse</comment>
+  </data>
+  <data name="String00222" xml:space="preserve">
+    <value>Keep alert visible when mouse hovers it.</value>
+    <comment>options, mouse</comment>
+  </data>
+  <data name="String00223" xml:space="preserve">
+    <value>Re-show alert when mouse enters it.</value>
+    <comment>options, mouse</comment>
+  </data>
+  <data name="String00224" xml:space="preserve">
+    <value>Alert 'Close Area' is clickable.</value>
+    <comment>options, mouse</comment>
+  </data>
+  <data name="String00225" xml:space="preserve">
+    <value>Alert 'Message Line' is clickable and opens Inbox.</value>
+    <comment>options, mouse</comment>
+  </data>
+  <data name="String00226" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00227" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00228" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00229" xml:space="preserve">
+    <value>Tray Alert</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00230" xml:space="preserve">
+    <value>Enable custom tray alert</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00231" xml:space="preserve">
+    <value>Configuration</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00232" xml:space="preserve">
+    <value>Reset</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00233" xml:space="preserve">
+    <value>X</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00234" xml:space="preserve">
+    <value>Y</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00235" xml:space="preserve">
+    <value>Width</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00236" xml:space="preserve">
+    <value>Height</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00237" xml:space="preserve">
+    <value>Close Area</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00238" xml:space="preserve">
+    <value>Title</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00239" xml:space="preserve">
+    <value>Time</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00240" xml:space="preserve">
+    <value>From</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00241" xml:space="preserve">
+    <value>Subject</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00242" xml:space="preserve">
+    <value>Message</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00243" xml:space="preserve">
+    <value>Font</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00244" xml:space="preserve">
+    <value>px</value>
+    <comment>options, tray alert (pixel)</comment>
+  </data>
+  <data name="String00245" xml:space="preserve">
+    <value>Time Format</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00246" xml:space="preserve">
+    <value>Preview</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00247" xml:space="preserve">
+    <value>Custom Background</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00248" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00249" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00250" xml:space="preserve">
+    <value>- If empty, the default background is used.</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00251" xml:space="preserve">
+    <value>- Magenta (RGB 255, 0, 255) is shown transparent.</value>
+    <comment>options, tray alert</comment>
+  </data>
+  <data name="String00252" xml:space="preserve">
+    <value>Leave empty for system default.</value>
+    <comment>options, tray alert, info tooltip</comment>
+  </data>
+  <data name="String00253" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00254" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00255" xml:space="preserve">
+    <value>Text</value>
+    <comment>options, text</comment>
+  </data>
+  <data name="String00256" xml:space="preserve">
+    <value>Log Window</value>
+    <comment>options, text</comment>
+  </data>
+  <data name="String00257" xml:space="preserve">
+    <value>Font</value>
+    <comment>options, text</comment>
+  </data>
+  <data name="String00258" xml:space="preserve">
+    <value>pt</value>
+    <comment>options, text,  (point)</comment>
+  </data>
+  <data name="String00259" xml:space="preserve">
+    <value>Color</value>
+    <comment>options, text</comment>
+  </data>
+  <data name="String00260" xml:space="preserve">
+    <value>Background</value>
+    <comment>options, text</comment>
+  </data>
+  <data name="String00261" xml:space="preserve">
+    <value>Word Wrap</value>
+    <comment>options, text</comment>
+  </data>
+  <data name="String00262" xml:space="preserve">
+    <value>Show timestamp in Log</value>
+    <comment>options, text</comment>
+  </data>
+  <data name="String00263" xml:space="preserve">
+    <value>Format</value>
+    <comment>options, text</comment>
+  </data>
+  <data name="String00264" xml:space="preserve">
+    <value>Leave empty for system default.</value>
+    <comment>options, text, info tooltip</comment>
+  </data>
+  <data name="String00265" xml:space="preserve">
+    <value>Misc.</value>
+    <comment>options, text</comment>
+  </data>
+  <data name="String00266" xml:space="preserve">
+    <value>Use 'Today' and 'Yesterday' instead of date (used in alert)</value>
+    <comment>options, text</comment>
+  </data>
+  <data name="String00267" xml:space="preserve">
+    <value>This overrules the Time Format settings in Customize -&gt; Alert.</value>
+    <comment>options, text, tooltip</comment>
+  </data>
+  <data name="String00268" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00269" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00270" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00271" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00272" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00273" xml:space="preserve">
+    <value>Tray Icon</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00274" xml:space="preserve">
+    <value>Options</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00275" xml:space="preserve">
+    <value>Default Icon</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00276" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00277" xml:space="preserve">
+    <value>When doubleclicking Tray Icon do this:</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00278" xml:space="preserve">
+    <value>Enable custom location</value>
+    <comment>options, advanced</comment>
+  </data>
+  <data name="String00279" xml:space="preserve">
+    <value>Sets custom Gmail location for all 'Open Gmail' menu items and Tray Icon doubleclick (if enabled).</value>
+    <comment>options, advanced, tooltip</comment>
+  </data>
+  <data name="String00280" xml:space="preserve">
+    <value>New Mail Counter</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00281" xml:space="preserve">
+    <value>Show unread count in Tray Icon tooltip for:</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00282" xml:space="preserve">
+    <value>Show account name</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00283" xml:space="preserve">
+    <value>Custom Tray Icons</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00284" xml:space="preserve">
+    <value>Enable custom tray icons</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00285" xml:space="preserve">
+    <value>Default</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00286" xml:space="preserve">
+    <value>New mail</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00287" xml:space="preserve">
+    <value>Use single click instead of double click for actions</value>
+    <comment>options, tray icon</comment>
+  </data>
+  <data name="String00288" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00289" xml:space="preserve">
+    <value>This overrides all other Tray Icon related settings (if left empty default icons are used).</value>
+    <comment>options, tray icon, tooltip</comment>
+  </data>
+  <data name="String00290" xml:space="preserve">
+    <value>Make sure "Change tray icon on new e-mail..." under "Alerts" is enabled to use a custom new mail icon!</value>
+    <comment>options, tray icon, tooltip</comment>
+  </data>
+  <data name="String00291" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00292" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00293" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00294" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00295" xml:space="preserve">
+    <value>Google</value>
+    <comment>options, google</comment>
+  </data>
+  <data name="String00296" xml:space="preserve">
+    <value>Gmail Settings</value>
+    <comment>options, google</comment>
+  </data>
+  <data name="String00297" xml:space="preserve">
+    <value>Feed Address</value>
+    <comment>options, google</comment>
+  </data>
+  <data name="String00298" xml:space="preserve">
+    <value>Advanced</value>
+    <comment>options, google</comment>
+  </data>
+  <data name="String00299" xml:space="preserve">
+    <value>Check if Gmail is online before logging on.</value>
+    <comment>options, google</comment>
+  </data>
+  <data name="String00300" xml:space="preserve">
+    <value>Enable only if you have an unreliable connection or experience program lockups when checking for new mail.</value>
+    <comment>options, google, tooltip</comment>
+  </data>
+  <data name="String00301" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00302" xml:space="preserve">
+    <value>Debug logging is still enabled!</value>
+    <comment>messagebox debug alert</comment>
+  </data>
+  <data name="String00303" xml:space="preserve">
+    <value>This should be disabled for normal usage of Spiffy. Disable now?</value>
+    <comment>messagebox debug alert</comment>
+  </data>
+  <data name="String00304" xml:space="preserve">
+    <value>Press 'Yes' to disable, press 'No' to continue.</value>
+    <comment>messagebox debug alert</comment>
+  </data>
+  <data name="String00305" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00306" xml:space="preserve">
+    <value>Proxy</value>
+    <comment>options, proxy</comment>
+  </data>
+  <data name="String00307" xml:space="preserve">
+    <value>Server Settings</value>
+    <comment>options, proxy</comment>
+  </data>
+  <data name="String00308" xml:space="preserve">
+    <value>Use proxy server</value>
+    <comment>options, proxy</comment>
+  </data>
+  <data name="String00309" xml:space="preserve">
+    <value>Hostname or IP</value>
+    <comment>options, proxy</comment>
+  </data>
+  <data name="String00310" xml:space="preserve">
+    <value>Port</value>
+    <comment>options, proxy</comment>
+  </data>
+  <data name="String00311" xml:space="preserve">
+    <value>Proxy requires authentication</value>
+    <comment>options, proxy</comment>
+  </data>
+  <data name="String00312" xml:space="preserve">
+    <value>Username</value>
+    <comment>options, proxy</comment>
+  </data>
+  <data name="String00313" xml:space="preserve">
+    <value>Password</value>
+    <comment>options, proxy</comment>
+  </data>
+  <data name="String00314" xml:space="preserve">
+    <value>Password field is cleared after Save.</value>
+    <comment>options, proxy, info tooltip</comment>
+  </data>
+  <data name="String00315" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00316" xml:space="preserve">
+    <value>(no subject)</value>
+    <comment>misc text</comment>
+  </data>
+  <data name="String00317" xml:space="preserve">
+    <value>unknown sender</value>
+    <comment>misc text</comment>
+  </data>
+  <data name="String00318" xml:space="preserve">
+    <value>unknown address</value>
+    <comment>misc text</comment>
+  </data>
+  <data name="String00319" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00320" xml:space="preserve">
+    <value>Advanced</value>
+    <comment>options, advanced</comment>
+  </data>
+  <data name="String00321" xml:space="preserve">
+    <value>Debug</value>
+    <comment>options, advanced</comment>
+  </data>
+  <data name="String00322" xml:space="preserve">
+    <value>Enable debug logging to file</value>
+    <comment>options, advanced</comment>
+  </data>
+  <data name="String00323" xml:space="preserve">
+    <value>Custom browser</value>
+    <comment>options, advanced</comment>
+  </data>
+  <data name="String00324" xml:space="preserve">
+    <value>Enable custom browser</value>
+    <comment>options, advanced</comment>
+  </data>
+  <data name="String00325" xml:space="preserve">
+    <value>Gmail location</value>
+    <comment>options, advanced</comment>
+  </data>
+  <data name="String00326" xml:space="preserve">
+    <value>Programs</value>
+    <comment>options, advanced</comment>
+  </data>
+  <data name="String00327" xml:space="preserve">
+    <value>Select a program</value>
+    <comment>options, advanced</comment>
+  </data>
+  <data name="String00328" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00329" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00330" xml:space="preserve">
+    <value>Running in Custom Mode</value>
+    <comment>logging</comment>
+  </data>
+  <data name="String00331" xml:space="preserve">
+    <value>Running in USB Mode</value>
+    <comment>logging</comment>
+  </data>
+  <data name="String00332" xml:space="preserve">
+    <value>Working dir</value>
+    <comment>logging</comment>
+  </data>
+  <data name="String00333" xml:space="preserve">
+    <value>No proxy server configured!</value>
+    <comment>logging</comment>
+  </data>
+</root>

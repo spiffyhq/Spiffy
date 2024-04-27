@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String00001" xml:space="preserve">
+    <value>Portuguese (Portugal) 0.6.1</value>
+  </data>
+  <data name="String00002" xml:space="preserve">
+    <value>iniciado</value>
+  </data>
+  <data name="String00003" xml:space="preserve">
+    <value>Gerado</value>
+  </data>
+  <data name="String00004" xml:space="preserve">
+    <value>Nova versão detectada</value>
+  </data>
+  <data name="String00005" xml:space="preserve">
+    <value>A guardar definições</value>
+  </data>
+  <data name="String00006" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00007" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00008" xml:space="preserve">
+    <value>Campo nome de utilizador ou senha vazio</value>
+  </data>
+  <data name="String00009" xml:space="preserve">
+    <value>Guardando contas</value>
+  </data>
+  <data name="String00010" xml:space="preserve">
+    <value>Feito!</value>
+  </data>
+  <data name="String00011" xml:space="preserve">
+    <value>desactivado</value>
+  </data>
+  <data name="String00012" xml:space="preserve">
+    <value>A verificar</value>
+  </data>
+  <data name="String00013" xml:space="preserve">
+    <value>a cada</value>
+  </data>
+  <data name="String00014" xml:space="preserve">
+    <value>minuto(s)</value>
+  </data>
+  <data name="String00015" xml:space="preserve">
+    <value>A verificar por novo correio agora!</value>
+  </data>
+  <data name="String00016" xml:space="preserve">
+    <value>Novo email de</value>
+  </data>
+  <data name="String00017" xml:space="preserve">
+    <value>Proxy desactivado</value>
+  </data>
+  <data name="String00018" xml:space="preserve">
+    <value>Proxy activado</value>
+  </data>
+  <data name="String00019" xml:space="preserve">
+    <value>Alerta sonoro activado</value>
+  </data>
+  <data name="String00020" xml:space="preserve">
+    <value>Alerta sonoro desactivado</value>
+  </data>
+  <data name="String00021" xml:space="preserve">
+    <value>Todas as Contas</value>
+  </data>
+  <data name="String00022" xml:space="preserve">
+    <value>Total não lido</value>
+  </data>
+  <data name="String00023" xml:space="preserve">
+    <value>Problema com o Feed, tentar de novo mais tarde</value>
+  </data>
+  <data name="String00024" xml:space="preserve">
+    <value>Erro a conectar com o Gmail</value>
+  </data>
+  <data name="String00025" xml:space="preserve">
+    <value>Erro a conectar com o Gmail, está offline?</value>
+  </data>
+  <data name="String00026" xml:space="preserve">
+    <value>Alerta da área de notificação activado</value>
+  </data>
+  <data name="String00027" xml:space="preserve">
+    <value>Feito!</value>
+  </data>
+  <data name="String00028" xml:space="preserve">
+    <value>Sem informação de conta!</value>
+  </data>
+  <data name="String00029" xml:space="preserve">
+    <value>Erro a reproduzir alerta de som!</value>
+  </data>
+  <data name="String00030" xml:space="preserve">
+    <value>Erro a iniciar o cliente de correio predefinido!</value>
+  </data>
+  <data name="String00031" xml:space="preserve">
+    <value>Sem correio não lido para</value>
+  </data>
+  <data name="String00032" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00033" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00034" xml:space="preserve">
+    <value>Obrigado!</value>
+  </data>
+  <data name="String00035" xml:space="preserve">
+    <value>Clique 'OK' para continuar para o Paypal!</value>
+  </data>
+  <data name="String00036" xml:space="preserve">
+    <value>Verificação de novo correio parada.</value>
+  </data>
+  <data name="String00037" xml:space="preserve">
+    <value>Verificação de novo correio iniciada.</value>
+  </data>
+  <data name="String00038" xml:space="preserve">
+    <value>Alerta da área de notificação desactivado</value>
+  </data>
+  <data name="String00039" xml:space="preserve">
+    <value>A reiniciar o(s) temporizador(es)</value>
+  </data>
+  <data name="String00040" xml:space="preserve">
+    <value>em</value>
+  </data>
+  <data name="String00041" xml:space="preserve">
+    <value>hora(s)</value>
+  </data>
+  <data name="String00042" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00043" xml:space="preserve">
+    <value>Restaurar Janela (predefinido)</value>
+  </data>
+  <data name="String00044" xml:space="preserve">
+    <value>Verificar por Novo Correio</value>
+  </data>
+  <data name="String00045" xml:space="preserve">
+    <value>Abrir Gmail no Navegador</value>
+  </data>
+  <data name="String00046" xml:space="preserve">
+    <value>Avisar-me de Novo</value>
+  </data>
+  <data name="String00047" xml:space="preserve">
+    <value>Iniciar Cliente de Correio Predefinido</value>
+  </data>
+  <data name="String00048" xml:space="preserve">
+    <value>Seleccione um alerta de som </value>
+  </data>
+  <data name="String00049" xml:space="preserve">
+    <value>Seleccione um notificador de fundo</value>
+  </data>
+  <data name="String00050" xml:space="preserve">
+    <value>Seleccione um ícone para a área de notificação</value>
+  </data>
+  <data name="String00051" xml:space="preserve">
+    <value>Ficheiros de Áudio</value>
+  </data>
+  <data name="String00052" xml:space="preserve">
+    <value>Ficheiros de Imagem</value>
+  </data>
+  <data name="String00053" xml:space="preserve">
+    <value>Ficheiros de Ícone </value>
+  </data>
+  <data name="String00054" xml:space="preserve">
+    <value>Restabelecer definições predefinidas? </value>
+  </data>
+  <data name="String00055" xml:space="preserve">
+    <value>A guardar as definições</value>
+  </data>
+  <data name="String00056" xml:space="preserve">
+    <value>Aviso: atraso do alerta 0, voltar à configuração predefinida</value>
+  </data>
+  <data name="String00057" xml:space="preserve">
+    <value>Aviso: url do feed vazio, voltar à configuração predefinida</value>
+  </data>
+  <data name="String00058" xml:space="preserve">
+    <value>Verde (predefinido)</value>
+  </data>
+  <data name="String00059" xml:space="preserve">
+    <value>Estrela (predefinido)</value>
+  </data>
+  <data name="String00060" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="String00061" xml:space="preserve">
+    <value>Cinzento</value>
+  </data>
+  <data name="String00062" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="String00063" xml:space="preserve">
+    <value>Roxo</value>
+  </data>
+  <data name="String00064" xml:space="preserve">
+    <value>Vermelho</value>
+  </data>
+  <data name="String00065" xml:space="preserve">
+    <value>Conta</value>
+  </data>
+  <data name="String00066" xml:space="preserve">
+    <value>Todos os ficheiros</value>
+  </data>
+  <data name="String00067" xml:space="preserve">
+    <value>Activar &amp;Sons</value>
+  </data>
+  <data name="String00068" xml:space="preserve">
+    <value>Activar &amp;Alertas</value>
+  </data>
+  <data name="String00069" xml:space="preserve">
+    <value>Activar &amp;Temporizadores</value>
+  </data>
+  <data name="String00070" xml:space="preserve">
+    <value>Activar &amp;Proxy</value>
+  </data>
+  <data name="String00071" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00072" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00073" xml:space="preserve">
+    <value>Parada a verificação de</value>
+  </data>
+  <data name="String00074" xml:space="preserve">
+    <value>Iniciada a verificação de</value>
+  </data>
+  <data name="String00075" xml:space="preserve">
+    <value>Hoje ás</value>
+  </data>
+  <data name="String00076" xml:space="preserve">
+    <value>Ontem ás</value>
+  </data>
+  <data name="String00077" xml:space="preserve">
+    <value>Tem a última versão!</value>
+  </data>
+  <data name="String00078" xml:space="preserve">
+    <value>Nova versão disponível!</value>
+  </data>
+  <data name="String00079" xml:space="preserve">
+    <value>Versão actual</value>
+  </data>
+  <data name="String00080" xml:space="preserve">
+    <value>Última versão</value>
+  </data>
+  <data name="String00081" xml:space="preserve">
+    <value>Ir ao website do Spiffy agora?</value>
+  </data>
+  <data name="String00082" xml:space="preserve">
+    <value>Erro ao verificar por actualizações</value>
+  </data>
+  <data name="String00083" xml:space="preserve">
+    <value>Nova versão disponível! Clique aqui para transferir.</value>
+  </data>
+  <data name="String00084" xml:space="preserve">
+    <value>Nova versão encontrada</value>
+  </data>
+  <data name="String00085" xml:space="preserve">
+    <value>Visite o website do Spiffy para transferir!</value>
+  </data>
+  <data name="String00086" xml:space="preserve">
+    <value>não lido(s)</value>
+  </data>
+  <data name="String00087" xml:space="preserve">
+    <value>Quer visitar o website do Spiffy para mais informações?</value>
+  </data>
+  <data name="String00088" xml:space="preserve">
+    <value>Erro a desencriptar a senha!</value>
+  </data>
+  <data name="String00089" xml:space="preserve">
+    <value>Se recentemente adicionou ou modificou uma conta, por favor reintroduza a senha e Guarde.</value>
+  </data>
+  <data name="String00090" xml:space="preserve">
+    <value>Verifique a janela do Registo para obter mais detalhes.</value>
+  </data>
+  <data name="String00091" xml:space="preserve">
+    <value>Se acabou de actualizar da versão 0.4.3 ou anterior, reintroduza TODAS as senhas das suas contas e Grave.</value>
+  </data>
+  <data name="String00092" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00093" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00094" xml:space="preserve">
+    <value>O Spiffy encontrou um erro e tem que encerrar...</value>
+  </data>
+  <data name="String00095" xml:space="preserve">
+    <value>Por favor relate isto a spiffyhq@gmail.com ou coloque uma mensagem no fórum.</value>
+  </data>
+  <data name="String00096" xml:space="preserve">
+    <value>Obrigado pelo seu apoio!</value>
+  </data>
+  <data name="String00097" xml:space="preserve">
+    <value>(utilize ALT+PrintScreen para copiar esta caixa)</value>
+  </data>
+  <data name="String00098" xml:space="preserve">
+    <value>Erro Fatal</value>
+  </data>
+  <data name="String00099" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00100" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00101" xml:space="preserve">
+    <value>&amp;Ficheiro</value>
+  </data>
+  <data name="String00102" xml:space="preserve">
+    <value>&amp;Opções</value>
+  </data>
+  <data name="String00103" xml:space="preserve">
+    <value>&amp;Ajuda</value>
+  </data>
+  <data name="String00104" xml:space="preserve">
+    <value>&amp;Ocultar Registo</value>
+  </data>
+  <data name="String00105" xml:space="preserve">
+    <value>&amp;Mostrar Registo</value>
+  </data>
+  <data name="String00106" xml:space="preserve">
+    <value>&amp;Limpar Registo</value>
+  </data>
+  <data name="String00107" xml:space="preserve">
+    <value>&amp;Encerrar Spiffy</value>
+  </data>
+  <data name="String00108" xml:space="preserve">
+    <value>Verificar &amp;Agora</value>
+  </data>
+  <data name="String00109" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00110" xml:space="preserve">
+    <value>Activar o(s) &amp;Temporizador(es)</value>
+  </data>
+  <data name="String00111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00112" xml:space="preserve">
+    <value>Activar &amp;Proxy</value>
+  </data>
+  <data name="String00113" xml:space="preserve">
+    <value>&amp;Contas</value>
+  </data>
+  <data name="String00114" xml:space="preserve">
+    <value>&amp;Configuração</value>
+  </data>
+  <data name="String00115" xml:space="preserve">
+    <value>Website Spiffy</value>
+  </data>
+  <data name="String00116" xml:space="preserve">
+    <value>Fórum Spiffy</value>
+  </data>
+  <data name="String00117" xml:space="preserve">
+    <value>&amp;Relatar um Problema</value>
+  </data>
+  <data name="String00118" xml:space="preserve">
+    <value>&amp;Verificar por Actualizações</value>
+  </data>
+  <data name="String00119" xml:space="preserve">
+    <value>&amp;Doar via Paypal</value>
+  </data>
+  <data name="String00120" xml:space="preserve">
+    <value>&amp;Sobre o Spiffy</value>
+  </data>
+  <data name="String00121" xml:space="preserve">
+    <value>Verificar &amp;Agora</value>
+  </data>
+  <data name="String00122" xml:space="preserve">
+    <value>&amp;Avisar-me de Novo</value>
+  </data>
+  <data name="String00123" xml:space="preserve">
+    <value>Abrir &amp;Gmail</value>
+  </data>
+  <data name="String00124" xml:space="preserve">
+    <value>Temporizador(es) Desactivado(s)</value>
+  </data>
+  <data name="String00125" xml:space="preserve">
+    <value>Temporizador(es) Activado(s)</value>
+  </data>
+  <data name="String00126" xml:space="preserve">
+    <value>Proxy Desactivado</value>
+  </data>
+  <data name="String00127" xml:space="preserve">
+    <value>Proxy Activado</value>
+  </data>
+  <data name="String00128" xml:space="preserve">
+    <value>Restaurar &amp;Janela</value>
+  </data>
+  <data name="String00129" xml:space="preserve">
+    <value>&amp;Esconder Sempre a Janela</value>
+  </data>
+  <data name="String00130" xml:space="preserve">
+    <value>&amp;Contas</value>
+  </data>
+  <data name="String00131" xml:space="preserve">
+    <value>&amp;Configuração</value>
+  </data>
+  <data name="String00132" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00133" xml:space="preserve">
+    <value>Contas</value>
+  </data>
+  <data name="String00134" xml:space="preserve">
+    <value>Conta</value>
+  </data>
+  <data name="String00135" xml:space="preserve">
+    <value>Nome da Conta</value>
+  </data>
+  <data name="String00136" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00137" xml:space="preserve">
+    <value>Nome de Utilizador</value>
+  </data>
+  <data name="String00138" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="String00139" xml:space="preserve">
+    <value>O campo Senha é limpo após Guardar.</value>
+  </data>
+  <data name="String00140" xml:space="preserve">
+    <value>Domínio</value>
+  </data>
+  <data name="String00141" xml:space="preserve">
+    <value>Google Apps</value>
+  </data>
+  <data name="String00142" xml:space="preserve">
+    <value>Verificar por correio não lido a cada</value>
+  </data>
+  <data name="String00143" xml:space="preserve">
+    <value>minuto(s).</value>
+  </data>
+  <data name="String00144" xml:space="preserve">
+    <value>Verificar este Marcador Gmail em vez da Caixa de Entrada </value>
+  </data>
+  <data name="String00145" xml:space="preserve">
+    <value>Utilizar alerta sonoro personalizado</value>
+  </data>
+  <data name="String00146" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="String00147" xml:space="preserve">
+    <value>&amp;Restaurar</value>
+  </data>
+  <data name="String00148" xml:space="preserve">
+    <value>Restaurar esta conta?</value>
+  </data>
+  <data name="String00149" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00150" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00151" xml:space="preserve">
+    <value>Configuração</value>
+  </data>
+  <data name="String00152" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="String00153" xml:space="preserve">
+    <value>&amp;Cancelar</value>
+  </data>
+  <data name="String00154" xml:space="preserve">
+    <value>&amp;Aplicar</value>
+  </data>
+  <data name="String00155" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="String00156" xml:space="preserve">
+    <value>Alertas</value>
+  </data>
+  <data name="String00157" xml:space="preserve">
+    <value>Personalizar</value>
+  </data>
+  <data name="String00158" xml:space="preserve">
+    <value>Rede</value>
+  </data>
+  <data name="String00159" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00160" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00161" xml:space="preserve">
+    <value>Seleccione uma subcategoria</value>
+  </data>
+  <data name="String00162" xml:space="preserve">
+    <value>Janela Principal</value>
+  </data>
+  <data name="String00163" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="String00164" xml:space="preserve">
+    <value>Alerta</value>
+  </data>
+  <data name="String00165" xml:space="preserve">
+    <value>Ícone</value>
+  </data>
+  <data name="String00166" xml:space="preserve">
+    <value>Rato</value>
+  </data>
+  <data name="String00167" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="String00168" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="String00169" xml:space="preserve">
+    <value>Avançado</value>
+  </data>
+  <data name="String00170" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00171" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00172" xml:space="preserve">
+    <value>Alertas</value>
+  </data>
+  <data name="String00173" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="String00174" xml:space="preserve">
+    <value>Mostrar alerta de novo email e mostrá-lo durante</value>
+  </data>
+  <data name="String00175" xml:space="preserve">
+    <value>segundo(s).</value>
+  </data>
+  <data name="String00176" xml:space="preserve">
+    <value>Mostrar alerta até que o email seja lido no Gmail, se não seleccionado mostra-se apenas uma vez.</value>
+  </data>
+  <data name="String00177" xml:space="preserve">
+    <value>Mostrar um máximo de</value>
+  </data>
+  <data name="String00178" xml:space="preserve">
+    <value>Comportamento</value>
+  </data>
+  <data name="String00179" xml:space="preserve">
+    <value>Empilhar alertas, se não seleccionado os alertas são todos mostrados no mesmo local.</value>
+  </data>
+  <data name="String00180" xml:space="preserve">
+    <value>Mostrar alertas com efeito Sliding em vez de Fading</value>
+  </data>
+  <data name="String00181" xml:space="preserve">
+    <value>Mostrar em</value>
+  </data>
+  <data name="String00182" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="String00183" xml:space="preserve">
+    <value>Ocultar em</value>
+  </data>
+  <data name="String00184" xml:space="preserve">
+    <value>Ícone da Área de Notificação</value>
+  </data>
+  <data name="String00185" xml:space="preserve">
+    <value>Mudar o ícone da área de notificação quando recebe um novo email e usar este ícone:</value>
+  </data>
+  <data name="String00186" xml:space="preserve">
+    <value>Reproduzir alerta sonoro quando recebe um novo email</value>
+  </data>
+  <data name="String00187" xml:space="preserve">
+    <value>Activar alerta sonoro</value>
+  </data>
+  <data name="String00188" xml:space="preserve">
+    <value>alerta(s) para cada conta em todas as verificações.</value>
+  </data>
+  <data name="String00189" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00190" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00191" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00192" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="String00193" xml:space="preserve">
+    <value>Opções de arranque</value>
+  </data>
+  <data name="String00194" xml:space="preserve">
+    <value>Correr o Spiffy quando inicia a sessão do Windows  </value>
+  </data>
+  <data name="String00195" xml:space="preserve">
+    <value>Ocultar o Spiffy na área de notificação no arranque</value>
+  </data>
+  <data name="String00196" xml:space="preserve">
+    <value>Verificar por novo correio no arranque</value>
+  </data>
+  <data name="String00197" xml:space="preserve">
+    <value>Funciona apenas quando a opção "Ocultar o Spiffy na Área de Notificação no Arranque" está activada.</value>
+  </data>
+  <data name="String00198" xml:space="preserve">
+    <value>Temporizadores de verificação de correio</value>
+  </data>
+  <data name="String00199" xml:space="preserve">
+    <value>Quando desactivados, reiniciar a verificação de novo correio após</value>
+  </data>
+  <data name="String00200" xml:space="preserve">
+    <value>hora(s).</value>
+  </data>
+  <data name="String00201" xml:space="preserve">
+    <value>Misc.</value>
+  </data>
+  <data name="String00202" xml:space="preserve">
+    <value>Minimizar para a Área de Notificação</value>
+  </data>
+  <data name="String00203" xml:space="preserve">
+    <value>Fechar para a Área de Notificação</value>
+  </data>
+  <data name="String00204" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="String00205" xml:space="preserve">
+    <value>* Reinicie o Spiffy quando muda de idioma!</value>
+  </data>
+  <data name="String00206" xml:space="preserve">
+    <value>Actualizações</value>
+  </data>
+  <data name="String00207" xml:space="preserve">
+    <value>Verificar por novas versões no Arranque</value>
+  </data>
+  <data name="String00208" xml:space="preserve">
+    <value>Janela Principal</value>
+  </data>
+  <data name="String00209" xml:space="preserve">
+    <value>Transparência</value>
+  </data>
+  <data name="String00210" xml:space="preserve">
+    <value>Opacidade</value>
+  </data>
+  <data name="String00211" xml:space="preserve">
+    <value>Misc.</value>
+  </data>
+  <data name="String00212" xml:space="preserve">
+    <value>Sempre Visível</value>
+  </data>
+  <data name="String00213" xml:space="preserve">
+    <value>Mostrar a Barra de Menu</value>
+  </data>
+  <data name="String00214" xml:space="preserve">
+    <value>Mostrar a Barra de Ferramentas</value>
+  </data>
+  <data name="String00215" xml:space="preserve">
+    <value>Barra de Título / Informações da Área de Notificação</value>
+  </data>
+  <data name="String00216" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00217" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00218" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00219" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00220" xml:space="preserve">
+    <value>Rato</value>
+  </data>
+  <data name="String00221" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="String00222" xml:space="preserve">
+    <value>Manter o alerta visível enquanto o rato lhe passa por cima. </value>
+  </data>
+  <data name="String00223" xml:space="preserve">
+    <value>Voltar a mostrar o alerta quando rato lhe passa por cima.</value>
+  </data>
+  <data name="String00224" xml:space="preserve">
+    <value>A 'Área de Fecho' do alerta é clicável.</value>
+  </data>
+  <data name="String00225" xml:space="preserve">
+    <value>A 'Linha de Mensagem' do alerta é clicável e abre a Caixa de Entrada. </value>
+  </data>
+  <data name="String00226" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00227" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00228" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00229" xml:space="preserve">
+    <value>Alerta da Área de Notificação</value>
+  </data>
+  <data name="String00230" xml:space="preserve">
+    <value>Activar alerta da área de notificação personalizado</value>
+  </data>
+  <data name="String00231" xml:space="preserve">
+    <value>Configuração</value>
+  </data>
+  <data name="String00232" xml:space="preserve">
+    <value>Restabelecer</value>
+  </data>
+  <data name="String00233" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="String00234" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="String00235" xml:space="preserve">
+    <value>Largura</value>
+  </data>
+  <data name="String00236" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="String00237" xml:space="preserve">
+    <value>Área de Fecho</value>
+  </data>
+  <data name="String00238" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="String00239" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="String00240" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="String00241" xml:space="preserve">
+    <value>Assunto</value>
+  </data>
+  <data name="String00242" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="String00243" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="String00244" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="String00245" xml:space="preserve">
+    <value>Formato da Hora</value>
+  </data>
+  <data name="String00246" xml:space="preserve">
+    <value>Pré-Visualização</value>
+  </data>
+  <data name="String00247" xml:space="preserve">
+    <value>Fundo Personalizado</value>
+  </data>
+  <data name="String00248" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00249" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00250" xml:space="preserve">
+    <value>- Se vazio, o fundo predefinido é utilizado.</value>
+  </data>
+  <data name="String00251" xml:space="preserve">
+    <value>- Magenta (RGB 255, o, 255) é mostrado como transparente.</value>
+  </data>
+  <data name="String00252" xml:space="preserve">
+    <value>Deixar vazio para a predefinição do sistema.</value>
+  </data>
+  <data name="String00253" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00254" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00255" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="String00256" xml:space="preserve">
+    <value>Janela do Registo</value>
+  </data>
+  <data name="String00257" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="String00258" xml:space="preserve">
+    <value>pt</value>
+  </data>
+  <data name="String00259" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="String00260" xml:space="preserve">
+    <value>Fundo</value>
+  </data>
+  <data name="String00261" xml:space="preserve">
+    <value>Ajuste de Linha</value>
+  </data>
+  <data name="String00262" xml:space="preserve">
+    <value>Mostrar a hora no Registo</value>
+  </data>
+  <data name="String00263" xml:space="preserve">
+    <value>Formato</value>
+  </data>
+  <data name="String00264" xml:space="preserve">
+    <value>Deixar vazio para a predefinição do sistema.</value>
+  </data>
+  <data name="String00265" xml:space="preserve">
+    <value>Misc.</value>
+  </data>
+  <data name="String00266" xml:space="preserve">
+    <value>Usar 'Hoje' e 'Ontem' em vez da data (usada no alerta)</value>
+  </data>
+  <data name="String00267" xml:space="preserve">
+    <value>Isto invalida a configuração de Formato da Hora em Personalizar -&gt; Alerta.</value>
+  </data>
+  <data name="String00268" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00269" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00270" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00271" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00272" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00273" xml:space="preserve">
+    <value>Ícone da Área de Notificação</value>
+  </data>
+  <data name="String00274" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="String00275" xml:space="preserve">
+    <value>Ícone Predefinido</value>
+  </data>
+  <data name="String00276" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00277" xml:space="preserve">
+    <value>Quando duplo clicado o Ícone da Área de Notificação faz isto:</value>
+  </data>
+  <data name="String00278" xml:space="preserve">
+    <value>Activar localização personalizada</value>
+  </data>
+  <data name="String00279" xml:space="preserve">
+    <value>Define uma localização personalizada para todos os itens do menu "Abrir Gmail" e para o duplo clique do Ícone da Área de Notificação (se activado).</value>
+  </data>
+  <data name="String00280" xml:space="preserve">
+    <value>Contador de Novo Correio</value>
+  </data>
+  <data name="String00281" xml:space="preserve">
+    <value>Mostrar o número de emails não lidos nas informações da Área de Notificação para:</value>
+  </data>
+  <data name="String00282" xml:space="preserve">
+    <value>Mostrar o nome da conta</value>
+  </data>
+  <data name="String00283" xml:space="preserve">
+    <value>Ícones da Área de Notificação personalizados</value>
+  </data>
+  <data name="String00284" xml:space="preserve">
+    <value>Activar Ícones da Área de Notificação personalizados</value>
+  </data>
+  <data name="String00285" xml:space="preserve">
+    <value>Predefinido</value>
+  </data>
+  <data name="String00286" xml:space="preserve">
+    <value>Novo email</value>
+  </data>
+  <data name="String00287" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00288" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00289" xml:space="preserve">
+    <value>Isto substitui todas as outras configurações relacionadas com o Ícone da Área de Notificação (se deixado em branco os ícones predefinidos são usados).</value>
+  </data>
+  <data name="String00290" xml:space="preserve">
+    <value>Assegure-se que "Mudar o ícone da área de notificação quando recebe um novo email..." em "Alertas" está activado para usar um ícone personalizado!</value>
+  </data>
+  <data name="String00291" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00292" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00293" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00294" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00295" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="String00296" xml:space="preserve">
+    <value>Definições do Gmail</value>
+  </data>
+  <data name="String00297" xml:space="preserve">
+    <value>Endereço do Feed</value>
+  </data>
+  <data name="String00298" xml:space="preserve">
+    <value>Avançado</value>
+  </data>
+  <data name="String00299" xml:space="preserve">
+    <value>Verificar se o Gmail está online antes de iniciar sessão.</value>
+  </data>
+  <data name="String00300" xml:space="preserve">
+    <value>Activar só se tiver uma conexão pouco fiável ou experimenta bloqueios do programa quando verifica novo correio. </value>
+  </data>
+  <data name="String00301" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00302" xml:space="preserve">
+    <value>O log da depuração ainda está activado!</value>
+  </data>
+  <data name="String00303" xml:space="preserve">
+    <value>Isto deve ser desactivado para o uso normal do Spiffy. Desactivar agora?</value>
+  </data>
+  <data name="String00304" xml:space="preserve">
+    <value>Pressione 'Sim' para desactivar ou 'Não' para continuar.</value>
+  </data>
+  <data name="String00305" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00306" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="String00307" xml:space="preserve">
+    <value>Definições do Servidor</value>
+  </data>
+  <data name="String00308" xml:space="preserve">
+    <value>Utilizar um servidor proxy</value>
+  </data>
+  <data name="String00309" xml:space="preserve">
+    <value>Nome do host ou IP</value>
+  </data>
+  <data name="String00310" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="String00311" xml:space="preserve">
+    <value>O proxy requer autenticação</value>
+  </data>
+  <data name="String00312" xml:space="preserve">
+    <value>Nome de Utilizador</value>
+  </data>
+  <data name="String00313" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="String00314" xml:space="preserve">
+    <value>O campo Senha é limpo após Guardar.</value>
+  </data>
+  <data name="String00315" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00316" xml:space="preserve">
+    <value>(sem assunto)</value>
+  </data>
+  <data name="String00317" xml:space="preserve">
+    <value>remetente desconhecido</value>
+  </data>
+  <data name="String00318" xml:space="preserve">
+    <value>endereço desconhecido</value>
+  </data>
+  <data name="String00319" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00320" xml:space="preserve">
+    <value>Avançado</value>
+  </data>
+  <data name="String00321" xml:space="preserve">
+    <value>Depurar</value>
+  </data>
+  <data name="String00322" xml:space="preserve">
+    <value>Activar o log da depuração para um ficheiro</value>
+  </data>
+  <data name="String00323" xml:space="preserve">
+    <value>Navegador personalizado</value>
+  </data>
+  <data name="String00324" xml:space="preserve">
+    <value>Activar navegador personalizado</value>
+  </data>
+  <data name="String00325" xml:space="preserve">
+    <value>Localização do Gmail</value>
+  </data>
+  <data name="String00326" xml:space="preserve">
+    <value>Programas</value>
+  </data>
+  <data name="String00327" xml:space="preserve">
+    <value>Seleccione um programa</value>
+  </data>
+  <data name="String00328" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00329" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00330" xml:space="preserve">
+    <value>A executar em Modo Personalizado</value>
+  </data>
+  <data name="String00331" xml:space="preserve">
+    <value>A executar em Modo USB</value>
+  </data>
+  <data name="String00332" xml:space="preserve">
+    <value>Directório de trabalho</value>
+  </data>
+</root>

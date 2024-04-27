@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String00001" xml:space="preserve">
+    <value>Russian 0.6.1</value>
+  </data>
+  <data name="String00002" xml:space="preserve">
+    <value>запущен</value>
+  </data>
+  <data name="String00003" xml:space="preserve">
+    <value>Собран</value>
+  </data>
+  <data name="String00004" xml:space="preserve">
+    <value>Обнаружена новая версия</value>
+  </data>
+  <data name="String00005" xml:space="preserve">
+    <value>Сохранение настроек</value>
+  </data>
+  <data name="String00006" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00007" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00008" xml:space="preserve">
+    <value>Пустой логин или пароль</value>
+  </data>
+  <data name="String00009" xml:space="preserve">
+    <value>Сохраняем аккаунты</value>
+  </data>
+  <data name="String00010" xml:space="preserve">
+    <value>Готово!</value>
+  </data>
+  <data name="String00011" xml:space="preserve">
+    <value>выключен</value>
+  </data>
+  <data name="String00012" xml:space="preserve">
+    <value>Проверяем</value>
+  </data>
+  <data name="String00013" xml:space="preserve">
+    <value>каждые</value>
+  </data>
+  <data name="String00014" xml:space="preserve">
+    <value>минут(ы)</value>
+  </data>
+  <data name="String00015" xml:space="preserve">
+    <value>Проверяем почту...</value>
+  </data>
+  <data name="String00016" xml:space="preserve">
+    <value>Новое письмо от</value>
+  </data>
+  <data name="String00017" xml:space="preserve">
+    <value>Прокси выключены</value>
+  </data>
+  <data name="String00018" xml:space="preserve">
+    <value>Прокси включены</value>
+  </data>
+  <data name="String00019" xml:space="preserve">
+    <value>Звук всплывашки включен</value>
+  </data>
+  <data name="String00020" xml:space="preserve">
+    <value>Звук всплывашки выключен</value>
+  </data>
+  <data name="String00021" xml:space="preserve">
+    <value>Все аккаунты</value>
+  </data>
+  <data name="String00022" xml:space="preserve">
+    <value>Всего непрочтённых</value>
+  </data>
+  <data name="String00023" xml:space="preserve">
+    <value>Проблема с фид-лентой Gmail, попробуйте позже</value>
+  </data>
+  <data name="String00024" xml:space="preserve">
+    <value>Не получается подключиться к Gmail</value>
+  </data>
+  <data name="String00025" xml:space="preserve">
+    <value>Не получается подключиться к Gmail, может Вы не в сети?</value>
+  </data>
+  <data name="String00026" xml:space="preserve">
+    <value>Всплывашки в трее включены</value>
+  </data>
+  <data name="String00027" xml:space="preserve">
+    <value>Готово!</value>
+  </data>
+  <data name="String00028" xml:space="preserve">
+    <value>Нет информации об аккаунте</value>
+  </data>
+  <data name="String00029" xml:space="preserve">
+    <value>Ошибка при воспроизведении звука всплывашки</value>
+  </data>
+  <data name="String00030" xml:space="preserve">
+    <value>Ошибка при запуске почтового клиента</value>
+  </data>
+  <data name="String00031" xml:space="preserve">
+    <value>Нет непрочитанных сообщений для</value>
+  </data>
+  <data name="String00032" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00033" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00034" xml:space="preserve">
+    <value>Спасибо!</value>
+  </data>
+  <data name="String00035" xml:space="preserve">
+    <value>Нажмите ОК, чтобы пройти на сайт PayPal.</value>
+  </data>
+  <data name="String00036" xml:space="preserve">
+    <value>Проверка почты остановлена</value>
+  </data>
+  <data name="String00037" xml:space="preserve">
+    <value>Проверка почты начата</value>
+  </data>
+  <data name="String00038" xml:space="preserve">
+    <value>Всплывашки в трее выключены</value>
+  </data>
+  <data name="String00039" xml:space="preserve">
+    <value>Перезапуск таймера(ов)</value>
+  </data>
+  <data name="String00040" xml:space="preserve">
+    <value>каждые</value>
+  </data>
+  <data name="String00041" xml:space="preserve">
+    <value>часов</value>
+  </data>
+  <data name="String00042" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00043" xml:space="preserve">
+    <value>Открыть окно (по умолчанию)</value>
+  </data>
+  <data name="String00044" xml:space="preserve">
+    <value>Проверить почту</value>
+  </data>
+  <data name="String00045" xml:space="preserve">
+    <value>Открыть Gmail в браузере</value>
+  </data>
+  <data name="String00046" xml:space="preserve">
+    <value>Показать всплывашку еще раз</value>
+  </data>
+  <data name="String00047" xml:space="preserve">
+    <value>Открыть почтовый клиент</value>
+  </data>
+  <data name="String00048" xml:space="preserve">
+    <value>Выберите звук для всплывашки</value>
+  </data>
+  <data name="String00049" xml:space="preserve">
+    <value>Выберите фон всплывашки</value>
+  </data>
+  <data name="String00050" xml:space="preserve">
+    <value>Выберите иконку для трея</value>
+  </data>
+  <data name="String00051" xml:space="preserve">
+    <value>Аудиофайлы</value>
+  </data>
+  <data name="String00052" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="String00053" xml:space="preserve">
+    <value>Иконки</value>
+  </data>
+  <data name="String00054" xml:space="preserve">
+    <value>Сбросить?</value>
+  </data>
+  <data name="String00055" xml:space="preserve">
+    <value>Сохраняем настройки</value>
+  </data>
+  <data name="String00056" xml:space="preserve">
+    <value>Внимание: задержка всплывашки = 0, устанавливаем по умолчанию</value>
+  </data>
+  <data name="String00057" xml:space="preserve">
+    <value>Внимание: адрес фид-ленты не указан, устанавливаем по умолчанию</value>
+  </data>
+  <data name="String00058" xml:space="preserve">
+    <value>Зеленая (по умолчанию)</value>
+  </data>
+  <data name="String00059" xml:space="preserve">
+    <value>Звездочка (по умолчанию)</value>
+  </data>
+  <data name="String00060" xml:space="preserve">
+    <value>Зеленая</value>
+  </data>
+  <data name="String00061" xml:space="preserve">
+    <value>Серая</value>
+  </data>
+  <data name="String00062" xml:space="preserve">
+    <value>Синяя</value>
+  </data>
+  <data name="String00063" xml:space="preserve">
+    <value>Фиолетовая</value>
+  </data>
+  <data name="String00064" xml:space="preserve">
+    <value>Красная</value>
+  </data>
+  <data name="String00065" xml:space="preserve">
+    <value>Аккаунт</value>
+  </data>
+  <data name="String00066" xml:space="preserve">
+    <value>Все файлы</value>
+  </data>
+  <data name="String00067" xml:space="preserve">
+    <value>Включить &amp;звуки</value>
+  </data>
+  <data name="String00068" xml:space="preserve">
+    <value>Включить &amp;всплывашки</value>
+  </data>
+  <data name="String00069" xml:space="preserve">
+    <value>Включить &amp;таймеры</value>
+  </data>
+  <data name="String00070" xml:space="preserve">
+    <value>Включить &amp;прокси</value>
+  </data>
+  <data name="String00071" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00072" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00073" xml:space="preserve">
+    <value>Прекращена проверка</value>
+  </data>
+  <data name="String00074" xml:space="preserve">
+    <value>Возобновлена проверка</value>
+  </data>
+  <data name="String00075" xml:space="preserve">
+    <value>Сегодня в</value>
+  </data>
+  <data name="String00076" xml:space="preserve">
+    <value>Вчера в</value>
+  </data>
+  <data name="String00077" xml:space="preserve">
+    <value>У вас самая новая версия!</value>
+  </data>
+  <data name="String00078" xml:space="preserve">
+    <value>Доступна новая версия!</value>
+  </data>
+  <data name="String00079" xml:space="preserve">
+    <value>Эта версия</value>
+  </data>
+  <data name="String00080" xml:space="preserve">
+    <value>Новая версия</value>
+  </data>
+  <data name="String00081" xml:space="preserve">
+    <value>Перейти на сайт Spiffy?</value>
+  </data>
+  <data name="String00082" xml:space="preserve">
+    <value>Ошибка при проверке обновлений</value>
+  </data>
+  <data name="String00083" xml:space="preserve">
+    <value>Доступна новая версия! Нажмите здесь, чтобы её скачать</value>
+  </data>
+  <data name="String00084" xml:space="preserve">
+    <value>Найдена новая версия</value>
+  </data>
+  <data name="String00085" xml:space="preserve">
+    <value>Посетите сайт Spiffy, чтобы скачать!</value>
+  </data>
+  <data name="String00086" xml:space="preserve">
+    <value>непрочитанных</value>
+  </data>
+  <data name="String00087" xml:space="preserve">
+    <value>Хотите посетить сайт Spiffy, чтобы узнать больше?</value>
+  </data>
+  <data name="String00088" xml:space="preserve">
+    <value>Ошибка при декодировании пароля</value>
+  </data>
+  <data name="String00089" xml:space="preserve">
+    <value>Если вы недавно добавляли или изменяли аккаунт, пожалуйста, введите пароль заново и сохраните</value>
+  </data>
+  <data name="String00090" xml:space="preserve">
+    <value>Смотрите окно лога для детальной информации</value>
+  </data>
+  <data name="String00091" xml:space="preserve">
+    <value>Если вы обновились с версии 0.4.3 или более ранней, заново введите пароли во всех аккаунтах и сохраните</value>
+  </data>
+  <data name="String00092" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00093" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00094" xml:space="preserve">
+    <value>Возникла ошибка и Spiffy придется закрыть...</value>
+  </data>
+  <data name="String00095" xml:space="preserve">
+    <value>Пожалуйста, напишите об этом на spiffyhq@gmail.com или на форум</value>
+  </data>
+  <data name="String00096" xml:space="preserve">
+    <value>Спасибо за поддержку!</value>
+  </data>
+  <data name="String00097" xml:space="preserve">
+    <value>(нажмите Alt+PrintScreen, чтобы скопировать)</value>
+  </data>
+  <data name="String00098" xml:space="preserve">
+    <value>Фатальная ошибка</value>
+  </data>
+  <data name="String00099" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00100" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00101" xml:space="preserve">
+    <value>&amp;Файл</value>
+  </data>
+  <data name="String00102" xml:space="preserve">
+    <value>&amp;Настройки</value>
+  </data>
+  <data name="String00103" xml:space="preserve">
+    <value>&amp;Помощь</value>
+  </data>
+  <data name="String00104" xml:space="preserve">
+    <value>&amp;Скрыть лог</value>
+  </data>
+  <data name="String00105" xml:space="preserve">
+    <value>Показать &amp;лог</value>
+  </data>
+  <data name="String00106" xml:space="preserve">
+    <value>&amp;Очистить окна лога</value>
+  </data>
+  <data name="String00107" xml:space="preserve">
+    <value>&amp;Выход</value>
+  </data>
+  <data name="String00108" xml:space="preserve">
+    <value>Проверить почту &amp;сейчас</value>
+  </data>
+  <data name="String00109" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00110" xml:space="preserve">
+    <value>Включить &amp;таймеры</value>
+  </data>
+  <data name="String00111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00112" xml:space="preserve">
+    <value>Включить &amp;прокси</value>
+  </data>
+  <data name="String00113" xml:space="preserve">
+    <value>&amp;Аккаунты</value>
+  </data>
+  <data name="String00114" xml:space="preserve">
+    <value>&amp;Конфигурация</value>
+  </data>
+  <data name="String00115" xml:space="preserve">
+    <value>&amp;Сайт Spiffy</value>
+  </data>
+  <data name="String00116" xml:space="preserve">
+    <value>&amp;Форум Spiffy</value>
+  </data>
+  <data name="String00117" xml:space="preserve">
+    <value>Сообщить о п&amp;роблеме</value>
+  </data>
+  <data name="String00118" xml:space="preserve">
+    <value>&amp;Проверить обновления</value>
+  </data>
+  <data name="String00119" xml:space="preserve">
+    <value>По&amp;жертвовать через PayPal</value>
+  </data>
+  <data name="String00120" xml:space="preserve">
+    <value>&amp;О программе</value>
+  </data>
+  <data name="String00121" xml:space="preserve">
+    <value>Проверить почту &amp;сейчас</value>
+  </data>
+  <data name="String00122" xml:space="preserve">
+    <value>Показать &amp;всплывашку еще раз</value>
+  </data>
+  <data name="String00123" xml:space="preserve">
+    <value>&amp;Открыть Gmail</value>
+  </data>
+  <data name="String00124" xml:space="preserve">
+    <value>Таймер выключен</value>
+  </data>
+  <data name="String00125" xml:space="preserve">
+    <value>Таймер включен</value>
+  </data>
+  <data name="String00126" xml:space="preserve">
+    <value>Прокси выключены</value>
+  </data>
+  <data name="String00127" xml:space="preserve">
+    <value>Прокси включены</value>
+  </data>
+  <data name="String00128" xml:space="preserve">
+    <value>Открыть окно &amp;лога</value>
+  </data>
+  <data name="String00129" xml:space="preserve">
+    <value>Все&amp;гда прятать окно</value>
+  </data>
+  <data name="String00130" xml:space="preserve">
+    <value>&amp;Аккаунты</value>
+  </data>
+  <data name="String00131" xml:space="preserve">
+    <value>&amp;Конфигурация</value>
+  </data>
+  <data name="String00132" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00133" xml:space="preserve">
+    <value>Аккаунты</value>
+  </data>
+  <data name="String00134" xml:space="preserve">
+    <value>Аккаунт</value>
+  </data>
+  <data name="String00135" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="String00136" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00137" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="String00138" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="String00139" xml:space="preserve">
+    <value>Поле пароля очищается после сохранения</value>
+  </data>
+  <data name="String00140" xml:space="preserve">
+    <value>Домен</value>
+  </data>
+  <data name="String00141" xml:space="preserve">
+    <value>Google Apps</value>
+  </data>
+  <data name="String00142" xml:space="preserve">
+    <value>Проверять почту каждые</value>
+  </data>
+  <data name="String00143" xml:space="preserve">
+    <value>минут(ы)</value>
+  </data>
+  <data name="String00144" xml:space="preserve">
+    <value>Проверять эту метку Gmail вместо Входящих</value>
+  </data>
+  <data name="String00145" xml:space="preserve">
+    <value>Использовать пользовательские звуки всплывашки</value>
+  </data>
+  <data name="String00146" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="String00147" xml:space="preserve">
+    <value>&amp;Сброс</value>
+  </data>
+  <data name="String00148" xml:space="preserve">
+    <value>Восстановить этот аккаунт?</value>
+  </data>
+  <data name="String00149" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00150" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00151" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="String00152" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="String00153" xml:space="preserve">
+    <value>От&amp;мена</value>
+  </data>
+  <data name="String00154" xml:space="preserve">
+    <value>&amp;Применить</value>
+  </data>
+  <data name="String00155" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="String00156" xml:space="preserve">
+    <value>Сообщения о письмах</value>
+  </data>
+  <data name="String00157" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="String00158" xml:space="preserve">
+    <value>Сеть</value>
+  </data>
+  <data name="String00159" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00160" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00161" xml:space="preserve">
+    <value>Выберите подраздел</value>
+  </data>
+  <data name="String00162" xml:space="preserve">
+    <value>Главное окно</value>
+  </data>
+  <data name="String00163" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="String00164" xml:space="preserve">
+    <value>Всплывашка</value>
+  </data>
+  <data name="String00165" xml:space="preserve">
+    <value>Иконка</value>
+  </data>
+  <data name="String00166" xml:space="preserve">
+    <value>Мышь</value>
+  </data>
+  <data name="String00167" xml:space="preserve">
+    <value>Прокси</value>
+  </data>
+  <data name="String00168" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="String00169" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="String00170" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00171" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00172" xml:space="preserve">
+    <value>Всплывашки</value>
+  </data>
+  <data name="String00173" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="String00174" xml:space="preserve">
+    <value>Показывать всплывашку в течение</value>
+  </data>
+  <data name="String00175" xml:space="preserve">
+    <value>секунд(ы)</value>
+  </data>
+  <data name="String00176" xml:space="preserve">
+    <value>Показывать всплывашку до тех пор, пока письмо не прочитано; иначе - показывать 1 раз</value>
+  </data>
+  <data name="String00177" xml:space="preserve">
+    <value>Показывать максимум</value>
+  </data>
+  <data name="String00178" xml:space="preserve">
+    <value>Поведение</value>
+  </data>
+  <data name="String00179" xml:space="preserve">
+    <value>Всплывашки одна над другой, иначе - в одном месте</value>
+  </data>
+  <data name="String00180" xml:space="preserve">
+    <value>Всплывашки скользят, иначе - затухают</value>
+  </data>
+  <data name="String00181" xml:space="preserve">
+    <value>Показывать</value>
+  </data>
+  <data name="String00182" xml:space="preserve">
+    <value>мс</value>
+  </data>
+  <data name="String00183" xml:space="preserve">
+    <value>Скрывать</value>
+  </data>
+  <data name="String00184" xml:space="preserve">
+    <value>Иконка в трее</value>
+  </data>
+  <data name="String00185" xml:space="preserve">
+    <value>Менять иконку, когда пришло письмо, на эту:</value>
+  </data>
+  <data name="String00186" xml:space="preserve">
+    <value>Проигрывать звук, когда пришло письмо</value>
+  </data>
+  <data name="String00187" xml:space="preserve">
+    <value>Включить звук всплывашки</value>
+  </data>
+  <data name="String00188" xml:space="preserve">
+    <value>всплывашек для каждого аккаунта</value>
+  </data>
+  <data name="String00189" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00190" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00191" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00192" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="String00193" xml:space="preserve">
+    <value>Настройки запуска</value>
+  </data>
+  <data name="String00194" xml:space="preserve">
+    <value>Запускать вместе с Windows</value>
+  </data>
+  <data name="String00195" xml:space="preserve">
+    <value>Спрятать в трее при запуске</value>
+  </data>
+  <data name="String00196" xml:space="preserve">
+    <value>Проверять почту при запуске</value>
+  </data>
+  <data name="String00197" xml:space="preserve">
+    <value>Работает только при нажатой галочке "Спрятать в трее при запуске"</value>
+  </data>
+  <data name="String00198" xml:space="preserve">
+    <value>Таймер проверки почты</value>
+  </data>
+  <data name="String00199" xml:space="preserve">
+    <value>Когда отключен, начинать проверку почты через</value>
+  </data>
+  <data name="String00200" xml:space="preserve">
+    <value>час(ов)</value>
+  </data>
+  <data name="String00201" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="String00202" xml:space="preserve">
+    <value>Сворачивать в трей</value>
+  </data>
+  <data name="String00203" xml:space="preserve">
+    <value>Закрывать в трей</value>
+  </data>
+  <data name="String00204" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="String00205" xml:space="preserve">
+    <value>* Перезапустите Spiffy для смены языка</value>
+  </data>
+  <data name="String00206" xml:space="preserve">
+    <value>Обновления</value>
+  </data>
+  <data name="String00207" xml:space="preserve">
+    <value>Проверять обновления при запуске</value>
+  </data>
+  <data name="String00208" xml:space="preserve">
+    <value>Главное окно</value>
+  </data>
+  <data name="String00209" xml:space="preserve">
+    <value>Полупрозрачность</value>
+  </data>
+  <data name="String00210" xml:space="preserve">
+    <value>Непрозрачность</value>
+  </data>
+  <data name="String00211" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="String00212" xml:space="preserve">
+    <value>Всегда поверх других окон</value>
+  </data>
+  <data name="String00213" xml:space="preserve">
+    <value>Показывать меню</value>
+  </data>
+  <data name="String00214" xml:space="preserve">
+    <value>Показывать панель инструментов</value>
+  </data>
+  <data name="String00215" xml:space="preserve">
+    <value>Заголовок окна / Заголовок в трее</value>
+  </data>
+  <data name="String00216" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00217" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00218" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00219" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00220" xml:space="preserve">
+    <value>Мышь</value>
+  </data>
+  <data name="String00221" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="String00222" xml:space="preserve">
+    <value>Не скрывать всплывашку при наведении мыши</value>
+  </data>
+  <data name="String00223" xml:space="preserve">
+    <value>Показать всплывашку снова при наведении мыши</value>
+  </data>
+  <data name="String00224" xml:space="preserve">
+    <value>Кнопка "Закрыть" на всплывашке кликабельна</value>
+  </data>
+  <data name="String00225" xml:space="preserve">
+    <value>Строка "Текст" на всплывашке по клику открывает Входящие</value>
+  </data>
+  <data name="String00226" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00227" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00228" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00229" xml:space="preserve">
+    <value>Всплывашки в трее</value>
+  </data>
+  <data name="String00230" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="String00231" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="String00232" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="String00233" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="String00234" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="String00235" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="String00236" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="String00237" xml:space="preserve">
+    <value>Кнопка 'Закрыть'</value>
+  </data>
+  <data name="String00238" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="String00239" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="String00240" xml:space="preserve">
+    <value>От</value>
+  </data>
+  <data name="String00241" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="String00242" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="String00243" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="String00244" xml:space="preserve">
+    <value>пкс</value>
+  </data>
+  <data name="String00245" xml:space="preserve">
+    <value>Формат времени</value>
+  </data>
+  <data name="String00246" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="String00247" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="String00248" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00249" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00250" xml:space="preserve">
+    <value>Если пусто, то используется фон по умолчанию</value>
+  </data>
+  <data name="String00251" xml:space="preserve">
+    <value>Маджента (RGB 255, 0, 255) - прозрачная</value>
+  </data>
+  <data name="String00252" xml:space="preserve">
+    <value>Если пусто, то используются системные настройки</value>
+  </data>
+  <data name="String00253" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00254" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00255" xml:space="preserve">
+    <value>Текста лога</value>
+  </data>
+  <data name="String00256" xml:space="preserve">
+    <value>Окно лога</value>
+  </data>
+  <data name="String00257" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="String00258" xml:space="preserve">
+    <value>пт</value>
+  </data>
+  <data name="String00259" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="String00260" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="String00261" xml:space="preserve">
+    <value>Не переносить слова</value>
+  </data>
+  <data name="String00262" xml:space="preserve">
+    <value>Показывать время в логе</value>
+  </data>
+  <data name="String00263" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="String00264" xml:space="preserve">
+    <value>Если пусто, то используются системные настройки</value>
+  </data>
+  <data name="String00265" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="String00266" xml:space="preserve">
+    <value>Использовать 'Сегодня' и 'Вчера' вместо дат (во всплывашках)</value>
+  </data>
+  <data name="String00267" xml:space="preserve">
+    <value>Это переопределяет настройки формата времени в Настройки -&gt; Всплывашки</value>
+  </data>
+  <data name="String00268" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00269" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00270" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00271" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00272" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00273" xml:space="preserve">
+    <value>Иконка в трее</value>
+  </data>
+  <data name="String00274" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="String00275" xml:space="preserve">
+    <value>Иконка по умолчанию</value>
+  </data>
+  <data name="String00276" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00277" xml:space="preserve">
+    <value>По двойному клику по иконке в трее:</value>
+  </data>
+  <data name="String00278" xml:space="preserve">
+    <value>Собственная настройка</value>
+  </data>
+  <data name="String00279" xml:space="preserve">
+    <value>Устанавливает путь к Gmail для всех пунктов меню "Открыть Gmail" и для двойного клика по иконке в трее (если включено)</value>
+  </data>
+  <data name="String00280" xml:space="preserve">
+    <value>Счетчик новых писем</value>
+  </data>
+  <data name="String00281" xml:space="preserve">
+    <value>Показывать количество непрочитанных писем в подсказке иконки в трее для:</value>
+  </data>
+  <data name="String00282" xml:space="preserve">
+    <value>Показывать название аккаунта</value>
+  </data>
+  <data name="String00283" xml:space="preserve">
+    <value>Пользовательские иконки в трее</value>
+  </data>
+  <data name="String00284" xml:space="preserve">
+    <value>Включить пользовательские иконки</value>
+  </data>
+  <data name="String00285" xml:space="preserve">
+    <value>Обычная</value>
+  </data>
+  <data name="String00286" xml:space="preserve">
+    <value>Новое письмо</value>
+  </data>
+  <data name="String00287" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00288" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00289" xml:space="preserve">
+    <value>Это переопределяет все другие настройки иконки в трее (если пусто, то используются настройки по умолчанию)</value>
+  </data>
+  <data name="String00290" xml:space="preserve">
+    <value>Убедитесь, что включено "Менять иконку, когда пришло письмо..." в Настройки -&gt; Всплывашки</value>
+  </data>
+  <data name="String00291" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00292" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00293" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00294" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00295" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="String00296" xml:space="preserve">
+    <value>Настройки Gmail</value>
+  </data>
+  <data name="String00297" xml:space="preserve">
+    <value>Адрес фид-ленты</value>
+  </data>
+  <data name="String00298" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="String00299" xml:space="preserve">
+    <value>Проверять, что Gmail работает, перед тем как залогиниться</value>
+  </data>
+  <data name="String00300" xml:space="preserve">
+    <value>Включайте, только если у вас нестабильное соединение или зависания программы при проверке почты</value>
+  </data>
+  <data name="String00301" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00302" xml:space="preserve">
+    <value>Логирование отладки всё еще включено!</value>
+  </data>
+  <data name="String00303" xml:space="preserve">
+    <value>Это следует отключить для нормальной работы Spiffy. Отключить сейчас?</value>
+  </data>
+  <data name="String00304" xml:space="preserve">
+    <value>Нажмите 'Да' чтобы отключить, 'Нет' чтобы продолжить</value>
+  </data>
+  <data name="String00305" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00306" xml:space="preserve">
+    <value>Прокси</value>
+  </data>
+  <data name="String00307" xml:space="preserve">
+    <value>Настройки сервера</value>
+  </data>
+  <data name="String00308" xml:space="preserve">
+    <value>Использовать прокси-сервер</value>
+  </data>
+  <data name="String00309" xml:space="preserve">
+    <value>Хост или IP</value>
+  </data>
+  <data name="String00310" xml:space="preserve">
+    <value>Порт</value>
+  </data>
+  <data name="String00311" xml:space="preserve">
+    <value>Аутентификация</value>
+  </data>
+  <data name="String00312" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="String00313" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="String00314" xml:space="preserve">
+    <value>Поле пароля очищается после сохранения</value>
+  </data>
+  <data name="String00315" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00316" xml:space="preserve">
+    <value>(без темы)</value>
+  </data>
+  <data name="String00317" xml:space="preserve">
+    <value>неизвестный отправитель</value>
+  </data>
+  <data name="String00318" xml:space="preserve">
+    <value>неизвестный адрес</value>
+  </data>
+  <data name="String00319" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00320" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="String00321" xml:space="preserve">
+    <value>Отладка</value>
+  </data>
+  <data name="String00322" xml:space="preserve">
+    <value>Логировать отладку в файл</value>
+  </data>
+  <data name="String00323" xml:space="preserve">
+    <value>Пользовательский браузер</value>
+  </data>
+  <data name="String00324" xml:space="preserve">
+    <value>Включить пользовательский браузер</value>
+  </data>
+  <data name="String00325" xml:space="preserve">
+    <value>Изменить путь для "Открыть Gmail"</value>
+  </data>
+  <data name="String00326" xml:space="preserve">
+    <value>Программы</value>
+  </data>
+  <data name="String00327" xml:space="preserve">
+    <value>Выберите программу</value>
+  </data>
+  <data name="String00328" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00329" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00330" xml:space="preserve">
+    <value>Работаем в настроенном режиме</value>
+  </data>
+  <data name="String00331" xml:space="preserve">
+    <value>Работаем в USB-режиме</value>
+  </data>
+  <data name="String00332" xml:space="preserve">
+    <value>Рабочая папка</value>
+  </data>
+</root>

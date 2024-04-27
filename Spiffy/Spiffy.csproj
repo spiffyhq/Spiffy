@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BD4CD6F-6A06-4033-98C3-EB4C8D82CE3A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spiffy</RootNamespace>
+    <AssemblyName>spiffy</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>spiffy.ico</ApplicationIcon>
+    <TargetZone>Custom</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <SignManifests>false</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <ExcludedPermissions>
+    </ExcludedPermissions>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.XML" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="options_advanced.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="options_advanced.Designer.cs">
+      <DependentUpon>options_advanced.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyAlertEventArgs.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="options_alerts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="options_alerts.Designer.cs">
+      <DependentUpon>options_alerts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="options_customize_text.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="options_customize_text.Designer.cs">
+      <DependentUpon>options_customize_text.cs</DependentUpon>
+    </Compile>
+    <Compile Include="options_customize_mainwindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="options_customize_mainwindow.Designer.cs">
+      <DependentUpon>options_customize_mainwindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="options_customize_mouse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="options_customize_mouse.Designer.cs">
+      <DependentUpon>options_customize_mouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="options_customize_popup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="options_customize_popup.Designer.cs">
+      <DependentUpon>options_customize_popup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="options_customize_tray.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="options_customize_tray.Designer.cs">
+      <DependentUpon>options_customize_tray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="options_general.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="options_general.Designer.cs">
+      <DependentUpon>options_general.cs</DependentUpon>
+    </Compile>
+    <Compile Include="options_network_google.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="options_network_google.Designer.cs">
+      <DependentUpon>options_network_google.cs</DependentUpon>
+    </Compile>
+    <Compile Include="options_network_proxy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="options_network_proxy.Designer.cs">
+      <DependentUpon>options_network_proxy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PortableSettingsProvider.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options_advanced.resx">
+      <DependentUpon>options_advanced.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options_alerts.resx">
+      <DependentUpon>options_alerts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options_customize_text.resx">
+      <DependentUpon>options_customize_text.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options_customize_mainwindow.resx">
+      <DependentUpon>options_customize_mainwindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options_customize_mouse.resx">
+      <DependentUpon>options_customize_mouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options_customize_popup.resx">
+      <DependentUpon>options_customize_popup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options_customize_tray.resx">
+      <DependentUpon>options_customize_tray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options_general.resx">
+      <DependentUpon>options_general.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options_network_google.resx">
+      <DependentUpon>options_network_google.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options_network_proxy.resx">
+      <DependentUpon>options_network_proxy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyAbout.resx">
+      <DependentUpon>SpiffyAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyAccountsForm.resx">
+      <DependentUpon>SpiffyAccountsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyOptions.resx">
+      <DependentUpon>SpiffyOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyPopup.resx">
+      <DependentUpon>SpiffyPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyText.fr-FR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpiffyText.fr-FR.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyText.he.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpiffyText.he.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyText.nl-NL.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpiffyText.nl-NL.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyText.pl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpiffyText.pl.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyText.pt-PT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpiffyText.pt-PT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyText.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpiffyText.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyText.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpiffyText.ru.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpiffyText.zh-Hant.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpiffyText.zh-Hant.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SpiffyAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpiffyAbout.Designer.cs">
+      <DependentUpon>SpiffyAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyAccount.cs" />
+    <Compile Include="SpiffyAccountsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpiffyAccountsForm.Designer.cs">
+      <DependentUpon>SpiffyAccountsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyAtomFeed.cs" />
+    <Compile Include="SpiffyOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpiffyOptions.Designer.cs">
+      <DependentUpon>SpiffyOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpiffyPopup.Designer.cs">
+      <DependentUpon>SpiffyPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyStuff.cs">
+    </Compile>
+    <Compile Include="SpiffyText.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpiffyText.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyText.fr-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpiffyText.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyText.he.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpiffyText.he.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyText.nl-NL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpiffyText.nl-NL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyText.pl.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpiffyText.pl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyText.pt-PT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpiffyText.pt-PT.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyText.ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpiffyText.ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SpiffyText.zh-Hant.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpiffyText.zh-Hant.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrench_orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\door_out.png" />
+    <None Include="Resources\application_delete.png" />
+    <None Include="Resources\gmail16x16.png" />
+    <None Include="Resources\email_go.png" />
+    <None Include="Resources\server.png" />
+    <None Include="Resources\building.png" />
+    <None Include="Resources\spiffy32x32.ico" />
+    <None Include="Resources\spiffy32x32_starbig.ico" />
+    <None Include="Resources\spiffy32x32_blue.ico" />
+    <None Include="Resources\spiffy32x32_purple.ico" />
+    <None Include="Resources\spiffy32x32_red.ico" />
+    <None Include="Resources\color_swatch.png" />
+    <None Include="Resources\text_align_center.png" />
+    <None Include="Resources\text_bold.png" />
+    <None Include="Resources\text_italic.png" />
+    <None Include="Resources\lightbulb.png" />
+    <None Include="Resources\spiffy32x32_gray.ico" />
+    <None Include="Resources\coins.png" />
+    <None Include="Resources\clock_play.png" />
+    <None Include="Resources\clock_stop.png" />
+    <None Include="Resources\logo5641.png" />
+    <None Include="Resources\clock_delete.png" />
+    <None Include="Resources\star.png" />
+    <None Include="Resources\application_get.png" />
+    <None Include="Resources\application_put.png" />
+    <None Include="Resources\comments.png" />
+    <None Include="Resources\user_delete.png" />
+    <None Include="Resources\server_connect.png" />
+    <None Include="Resources\server_link.png" />
+    <None Include="Resources\house.png" />
+    <None Include="Resources\test4.bmp" />
+    <None Include="Resources\report.png" />
+    <None Include="Resources\bug.png" />
+    <None Include="Resources\television.png" />
+    <None Include="Resources\cog.png" />
+    <None Include="Resources\folder_explore.png" />
+    <None Include="Resources\textfield_add.png" />
+    <None Include="Resources\textfield_delete.png" />
+    <None Include="Resources\star_grey.png" />
+    <None Include="Resources\world_link.png" />
+    <None Include="Resources\sound.png" />
+    <None Include="Resources\arrow_refresh.png" />
+    <None Include="Resources\cart.png" />
+    <None Include="Resources\world_go.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\sound_mute.png" />
+    <None Include="Resources\sound_none.png" />
+    <None Include="Resources\freewillpower.gif" />
+    <None Include="Resources\freewillpower1.gif" />
+    <None Include="Resources\paypal.jpg" />
+    <None Include="Resources\icon_paypal.png" />
+    <None Include="Resources\world.png" />
+    <None Include="Resources\lock_break.png" />
+    <None Include="Resources\lock.png" />
+    <Content Include="spiffy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

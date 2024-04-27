@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String00001" xml:space="preserve">
+    <value>Polish 0.6.1</value>
+  </data>
+  <data name="String00002" xml:space="preserve">
+    <value>uruchomiony</value>
+  </data>
+  <data name="String00003" xml:space="preserve">
+    <value>Wersja</value>
+  </data>
+  <data name="String00004" xml:space="preserve">
+    <value>Dostępna jest nowa wersja</value>
+  </data>
+  <data name="String00005" xml:space="preserve">
+    <value>Zapis ustawień</value>
+  </data>
+  <data name="String00006" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00007" xml:space="preserve">
+    <value>Plik -&gt; Uruchom ponownie</value>
+  </data>
+  <data name="String00008" xml:space="preserve">
+    <value>Pusty Login lub Hasło </value>
+  </data>
+  <data name="String00009" xml:space="preserve">
+    <value>Konta - zapisywanie...</value>
+  </data>
+  <data name="String00010" xml:space="preserve">
+    <value>Gotowe!</value>
+  </data>
+  <data name="String00011" xml:space="preserve">
+    <value>wyłączone</value>
+  </data>
+  <data name="String00012" xml:space="preserve">
+    <value>Sprawdzanie</value>
+  </data>
+  <data name="String00013" xml:space="preserve">
+    <value>co</value>
+  </data>
+  <data name="String00014" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="String00015" xml:space="preserve">
+    <value>Sprawdzanie czy jest nowa poczta!</value>
+  </data>
+  <data name="String00016" xml:space="preserve">
+    <value>Nowa poczta od</value>
+  </data>
+  <data name="String00017" xml:space="preserve">
+    <value>Proxy OFF</value>
+  </data>
+  <data name="String00018" xml:space="preserve">
+    <value>Proxy ON</value>
+  </data>
+  <data name="String00019" xml:space="preserve">
+    <value>Dźwięki włączone</value>
+  </data>
+  <data name="String00020" xml:space="preserve">
+    <value>Dźwięki wyłączone</value>
+  </data>
+  <data name="String00021" xml:space="preserve">
+    <value>Wszystkie konta</value>
+  </data>
+  <data name="String00022" xml:space="preserve">
+    <value>Razem nieprzeczytanych</value>
+  </data>
+  <data name="String00023" xml:space="preserve">
+    <value>Problem z RSS, spróbuj poźniej</value>
+  </data>
+  <data name="String00024" xml:space="preserve">
+    <value>Błąd połączenia z Gmail</value>
+  </data>
+  <data name="String00025" xml:space="preserve">
+    <value>Błąd połączenia z Gmail, sprawdź czy jesteś online</value>
+  </data>
+  <data name="String00026" xml:space="preserve">
+    <value>Powiadomienia w pasku zadań włączone</value>
+  </data>
+  <data name="String00027" xml:space="preserve">
+    <value>Gotowe!</value>
+  </data>
+  <data name="String00028" xml:space="preserve">
+    <value>Brak informacji o koncie!</value>
+  </data>
+  <data name="String00029" xml:space="preserve">
+    <value>Błąd podczas odtwarzania dźwięku powiadomienia!</value>
+  </data>
+  <data name="String00030" xml:space="preserve">
+    <value>Błąd uruchomienia domyślnego klienta poczty!</value>
+  </data>
+  <data name="String00031" xml:space="preserve">
+    <value>Brak nieprzeczytanych wiadomości dla</value>
+  </data>
+  <data name="String00032" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00033" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00034" xml:space="preserve">
+    <value>Dziękuję!</value>
+  </data>
+  <data name="String00035" xml:space="preserve">
+    <value>Kliknij OK i przejdź do PayPal</value>
+  </data>
+  <data name="String00036" xml:space="preserve">
+    <value>Zatrzymano sprawdzanie nowej poczty.</value>
+  </data>
+  <data name="String00037" xml:space="preserve">
+    <value>Rozpoczęto sprawdzanie nowej poczty.</value>
+  </data>
+  <data name="String00038" xml:space="preserve">
+    <value>Powiadomienia w pasku zadań wyłączone</value>
+  </data>
+  <data name="String00039" xml:space="preserve">
+    <value>Start timera(ów)</value>
+  </data>
+  <data name="String00040" xml:space="preserve">
+    <value>za</value>
+  </data>
+  <data name="String00041" xml:space="preserve">
+    <value>godzin</value>
+  </data>
+  <data name="String00042" xml:space="preserve">
+    <value>###OPTIONS 1###</value>
+  </data>
+  <data name="String00043" xml:space="preserve">
+    <value>Pokaż w oknie (domyślnie)</value>
+  </data>
+  <data name="String00044" xml:space="preserve">
+    <value>Sprawdź pocztę</value>
+  </data>
+  <data name="String00045" xml:space="preserve">
+    <value>Otwórz Gmail</value>
+  </data>
+  <data name="String00046" xml:space="preserve">
+    <value>Pokaż ponownie</value>
+  </data>
+  <data name="String00047" xml:space="preserve">
+    <value>Uruchom domyślny klienta poczty</value>
+  </data>
+  <data name="String00048" xml:space="preserve">
+    <value>Wybierz dźwięk powiadomienia</value>
+  </data>
+  <data name="String00049" xml:space="preserve">
+    <value>Wybierz tło powiadomienia</value>
+  </data>
+  <data name="String00050" xml:space="preserve">
+    <value>Wybierz ikonę w pasku zadań</value>
+  </data>
+  <data name="String00051" xml:space="preserve">
+    <value>Pliki audio</value>
+  </data>
+  <data name="String00052" xml:space="preserve">
+    <value>Zdjęcia</value>
+  </data>
+  <data name="String00053" xml:space="preserve">
+    <value>Pliki ikon</value>
+  </data>
+  <data name="String00054" xml:space="preserve">
+    <value>Przywrócić ustawienia domyślne?</value>
+  </data>
+  <data name="String00055" xml:space="preserve">
+    <value>Zapisywanie ustawień</value>
+  </data>
+  <data name="String00056" xml:space="preserve">
+    <value>Uwaga: przedział zerowy powiadomienia, ustawiono domyślnie</value>
+  </data>
+  <data name="String00057" xml:space="preserve">
+    <value>Uwaga: pusty adres RSS, ustawiono domyślnie</value>
+  </data>
+  <data name="String00058" xml:space="preserve">
+    <value>Zielona (domyślnie)</value>
+  </data>
+  <data name="String00059" xml:space="preserve">
+    <value>Gwiazda (domyślnie)</value>
+  </data>
+  <data name="String00060" xml:space="preserve">
+    <value>Zielona</value>
+  </data>
+  <data name="String00061" xml:space="preserve">
+    <value>Szara</value>
+  </data>
+  <data name="String00062" xml:space="preserve">
+    <value>Niebieska</value>
+  </data>
+  <data name="String00063" xml:space="preserve">
+    <value>Różowa</value>
+  </data>
+  <data name="String00064" xml:space="preserve">
+    <value>Czerwona</value>
+  </data>
+  <data name="String00065" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="String00066" xml:space="preserve">
+    <value>Wszystkie pliki</value>
+  </data>
+  <data name="String00067" xml:space="preserve">
+    <value>&amp;Dźwięki włączone</value>
+  </data>
+  <data name="String00068" xml:space="preserve">
+    <value>&amp;Powiadomienia włączone</value>
+  </data>
+  <data name="String00069" xml:space="preserve">
+    <value>&amp;Timery włączone</value>
+  </data>
+  <data name="String00070" xml:space="preserve">
+    <value>&amp;Proxy włączone</value>
+  </data>
+  <data name="String00071" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00072" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00073" xml:space="preserve">
+    <value>Zatrzymano sprawdzanie</value>
+  </data>
+  <data name="String00074" xml:space="preserve">
+    <value>Rozpoczęto sprawdzanie</value>
+  </data>
+  <data name="String00075" xml:space="preserve">
+    <value>Dzisiaj o</value>
+  </data>
+  <data name="String00076" xml:space="preserve">
+    <value>Wczoraj o</value>
+  </data>
+  <data name="String00077" xml:space="preserve">
+    <value>Masz najnowszą wersję!</value>
+  </data>
+  <data name="String00078" xml:space="preserve">
+    <value>Nowa wersja dostępna!</value>
+  </data>
+  <data name="String00079" xml:space="preserve">
+    <value>Ta wersja</value>
+  </data>
+  <data name="String00080" xml:space="preserve">
+    <value>Najnowsza wersja</value>
+  </data>
+  <data name="String00081" xml:space="preserve">
+    <value>Przejść do strony domowej Spiffy?</value>
+  </data>
+  <data name="String00082" xml:space="preserve">
+    <value>Błąd podczas aktualizacji</value>
+  </data>
+  <data name="String00083" xml:space="preserve">
+    <value>Najnowsza wersja dostępna, pobierz.</value>
+  </data>
+  <data name="String00084" xml:space="preserve">
+    <value>Najnowsza wersja dostępna</value>
+  </data>
+  <data name="String00085" xml:space="preserve">
+    <value>Pobierz ze strony Spiffy!</value>
+  </data>
+  <data name="String00086" xml:space="preserve">
+    <value>nowe</value>
+  </data>
+  <data name="String00087" xml:space="preserve">
+    <value>Więcej informacji o Spiffy?</value>
+  </data>
+  <data name="String00088" xml:space="preserve">
+    <value>Błąd podczas odczytu hasła!</value>
+  </data>
+  <data name="String00089" xml:space="preserve">
+    <value>Ponownie wprowadź hasło i kliknij "Zapisz", jeśli dodano/zmieniono dane konta.</value>
+  </data>
+  <data name="String00090" xml:space="preserve">
+    <value>Zobacz więcej w oknie konsoli.</value>
+  </data>
+  <data name="String00091" xml:space="preserve">
+    <value>Wprowadź ponownie wszystkie dane kont i hasła w przypadku aktualizacji od wersji 0.4.3 lub starszej.</value>
+  </data>
+  <data name="String00092" xml:space="preserve">
+    <value>Upsss!</value>
+  </data>
+  <data name="String00093" xml:space="preserve">
+    <value>Spiffy jest już uruchomiony!</value>
+  </data>
+  <data name="String00094" xml:space="preserve">
+    <value>Błąd, Spiffy musi zostać zamknięty...</value>
+  </data>
+  <data name="String00095" xml:space="preserve">
+    <value>Zgłoś problem do spiffyhq@gmail.com lub na forum.</value>
+  </data>
+  <data name="String00096" xml:space="preserve">
+    <value>Dziękuję za wsparcie!</value>
+  </data>
+  <data name="String00097" xml:space="preserve">
+    <value>(Aby zrobić zrzut ekranu wciśnij ALT+PrintScreen)</value>
+  </data>
+  <data name="String00098" xml:space="preserve">
+    <value>Błąd krytyczny</value>
+  </data>
+  <data name="String00099" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00100" xml:space="preserve">
+    <value>### MAIN WINDOW GUI ####</value>
+  </data>
+  <data name="String00101" xml:space="preserve">
+    <value>&amp;Plik</value>
+  </data>
+  <data name="String00102" xml:space="preserve">
+    <value>&amp;Narzędzia</value>
+  </data>
+  <data name="String00103" xml:space="preserve">
+    <value>&amp;Pomoc</value>
+  </data>
+  <data name="String00104" xml:space="preserve">
+    <value>&amp;Ukryj Log</value>
+  </data>
+  <data name="String00105" xml:space="preserve">
+    <value>&amp;Pokaż Log</value>
+  </data>
+  <data name="String00106" xml:space="preserve">
+    <value>&amp;Wyczyść Log</value>
+  </data>
+  <data name="String00107" xml:space="preserve">
+    <value>&amp;Zakończ</value>
+  </data>
+  <data name="String00108" xml:space="preserve">
+    <value>&amp;Sprawdź pocztę</value>
+  </data>
+  <data name="String00109" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00110" xml:space="preserve">
+    <value>&amp;Timer(y) włączone</value>
+  </data>
+  <data name="String00111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00112" xml:space="preserve">
+    <value>&amp;Proxy włączone</value>
+  </data>
+  <data name="String00113" xml:space="preserve">
+    <value>&amp;Konta</value>
+  </data>
+  <data name="String00114" xml:space="preserve">
+    <value>&amp;Ustawienia</value>
+  </data>
+  <data name="String00115" xml:space="preserve">
+    <value>&amp;WWW</value>
+  </data>
+  <data name="String00116" xml:space="preserve">
+    <value>&amp;Forum</value>
+  </data>
+  <data name="String00117" xml:space="preserve">
+    <value>&amp;Zgłoś problem</value>
+  </data>
+  <data name="String00118" xml:space="preserve">
+    <value>&amp;Sprawdź aktualizacje</value>
+  </data>
+  <data name="String00119" xml:space="preserve">
+    <value>&amp;Wsparcie (Paypal)</value>
+  </data>
+  <data name="String00120" xml:space="preserve">
+    <value>&amp;O programie</value>
+  </data>
+  <data name="String00121" xml:space="preserve">
+    <value>&amp;Sprawdź pocztę</value>
+  </data>
+  <data name="String00122" xml:space="preserve">
+    <value>&amp;Pokaż ponownie</value>
+  </data>
+  <data name="String00123" xml:space="preserve">
+    <value>&amp;Otwórz Gmail</value>
+  </data>
+  <data name="String00124" xml:space="preserve">
+    <value>Timery wyłączone</value>
+  </data>
+  <data name="String00125" xml:space="preserve">
+    <value>Timery włączone</value>
+  </data>
+  <data name="String00126" xml:space="preserve">
+    <value>Proxy wyłączone</value>
+  </data>
+  <data name="String00127" xml:space="preserve">
+    <value>Proxy włączone</value>
+  </data>
+  <data name="String00128" xml:space="preserve">
+    <value>&amp;Pokaż w oknie</value>
+  </data>
+  <data name="String00129" xml:space="preserve">
+    <value>&amp;Ukrywaj okno</value>
+  </data>
+  <data name="String00130" xml:space="preserve">
+    <value>&amp;Konta</value>
+  </data>
+  <data name="String00131" xml:space="preserve">
+    <value>&amp;Ustawienia</value>
+  </data>
+  <data name="String00132" xml:space="preserve">
+    <value>##### ACCOUNTS ####</value>
+  </data>
+  <data name="String00133" xml:space="preserve">
+    <value>Konta</value>
+  </data>
+  <data name="String00134" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="String00135" xml:space="preserve">
+    <value>Nazwa konta</value>
+  </data>
+  <data name="String00136" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00137" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="String00138" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="String00139" xml:space="preserve">
+    <value>Po zapisie pole hasła jest czyszczone.</value>
+  </data>
+  <data name="String00140" xml:space="preserve">
+    <value>Domena</value>
+  </data>
+  <data name="String00141" xml:space="preserve">
+    <value>Google Apps</value>
+  </data>
+  <data name="String00142" xml:space="preserve">
+    <value>Sprawdź czy jest nowa poczta co</value>
+  </data>
+  <data name="String00143" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="String00144" xml:space="preserve">
+    <value>Sprawdzaj pocztę oznaczoną etykietą (zamiast w "Odebrane")</value>
+  </data>
+  <data name="String00145" xml:space="preserve">
+    <value>Własny dźwięk Powiadomień</value>
+  </data>
+  <data name="String00146" xml:space="preserve">
+    <value>Opcje</value>
+  </data>
+  <data name="String00147" xml:space="preserve">
+    <value>&amp;Wyczyść</value>
+  </data>
+  <data name="String00148" xml:space="preserve">
+    <value>Czy konto zresetować? </value>
+  </data>
+  <data name="String00149" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00150" xml:space="preserve">
+    <value>##### OPTIONS GUI #######</value>
+  </data>
+  <data name="String00151" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="String00152" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="String00153" xml:space="preserve">
+    <value>&amp;Anuluj</value>
+  </data>
+  <data name="String00154" xml:space="preserve">
+    <value>&amp;Zastosuj</value>
+  </data>
+  <data name="String00155" xml:space="preserve">
+    <value>Ogólne</value>
+  </data>
+  <data name="String00156" xml:space="preserve">
+    <value>Powiadomienia</value>
+  </data>
+  <data name="String00157" xml:space="preserve">
+    <value>Dostosuj</value>
+  </data>
+  <data name="String00158" xml:space="preserve">
+    <value>Sieć</value>
+  </data>
+  <data name="String00159" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00160" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00161" xml:space="preserve">
+    <value>Wybierz podkategorię</value>
+  </data>
+  <data name="String00162" xml:space="preserve">
+    <value>Okno programu</value>
+  </data>
+  <data name="String00163" xml:space="preserve">
+    <value>Logi</value>
+  </data>
+  <data name="String00164" xml:space="preserve">
+    <value>Powiadomienie</value>
+  </data>
+  <data name="String00165" xml:space="preserve">
+    <value>Pasek zadań</value>
+  </data>
+  <data name="String00166" xml:space="preserve">
+    <value>Mysz</value>
+  </data>
+  <data name="String00167" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="String00168" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="String00169" xml:space="preserve">
+    <value>Zaawansowane</value>
+  </data>
+  <data name="String00170" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00171" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00172" xml:space="preserve">
+    <value>Powiadomienia</value>
+  </data>
+  <data name="String00173" xml:space="preserve">
+    <value>Opcje</value>
+  </data>
+  <data name="String00174" xml:space="preserve">
+    <value>Pokaż powiadomienie przez</value>
+  </data>
+  <data name="String00175" xml:space="preserve">
+    <value>sekund.</value>
+  </data>
+  <data name="String00176" xml:space="preserve">
+    <value>ON - pokazuj powiadomienie do czasu odczytu wiadomości w Gmailu; OFF - pokaż tylko raz.</value>
+  </data>
+  <data name="String00177" xml:space="preserve">
+    <value>Pokaż maksymalnie</value>
+  </data>
+  <data name="String00178" xml:space="preserve">
+    <value>Animacja powiadomienia</value>
+  </data>
+  <data name="String00179" xml:space="preserve">
+    <value>ON - Grupuj powiadomienia; OFF - pokaż w jednym miejscu.</value>
+  </data>
+  <data name="String00180" xml:space="preserve">
+    <value>ON - efekt slajdu; OFF - efekt zanikania</value>
+  </data>
+  <data name="String00181" xml:space="preserve">
+    <value>Czas wjazdu</value>
+  </data>
+  <data name="String00182" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="String00183" xml:space="preserve">
+    <value>Czas zjazdu</value>
+  </data>
+  <data name="String00184" xml:space="preserve">
+    <value>Pasek zadań</value>
+  </data>
+  <data name="String00185" xml:space="preserve">
+    <value>Po nadejściu poczty pokaż ikonę:</value>
+  </data>
+  <data name="String00186" xml:space="preserve">
+    <value>Po nadejściu poczty odtwórz dźwięk</value>
+  </data>
+  <data name="String00187" xml:space="preserve">
+    <value>Włącz</value>
+  </data>
+  <data name="String00188" xml:space="preserve">
+    <value>powiadomień dla każdego konta.</value>
+  </data>
+  <data name="String00189" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00190" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00191" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00192" xml:space="preserve">
+    <value>Ogólne</value>
+  </data>
+  <data name="String00193" xml:space="preserve">
+    <value>Uruchamianie</value>
+  </data>
+  <data name="String00194" xml:space="preserve">
+    <value>Uruchom program przy starcie systemu</value>
+  </data>
+  <data name="String00195" xml:space="preserve">
+    <value>Uruchom w pasku zadań</value>
+  </data>
+  <data name="String00196" xml:space="preserve">
+    <value>Sprawdź pocztę przy uruchomieniu</value>
+  </data>
+  <data name="String00197" xml:space="preserve">
+    <value>Działa przy włączonej opcji "Uruchom program przy starcie systemu"</value>
+  </data>
+  <data name="String00198" xml:space="preserve">
+    <value>Timery sprawdzające pocztę</value>
+  </data>
+  <data name="String00199" xml:space="preserve">
+    <value>Gdy wyłączone, poczta sprawdzana co</value>
+  </data>
+  <data name="String00200" xml:space="preserve">
+    <value>godz.</value>
+  </data>
+  <data name="String00201" xml:space="preserve">
+    <value>Różne</value>
+  </data>
+  <data name="String00202" xml:space="preserve">
+    <value>Minimalizuj do paska zadań</value>
+  </data>
+  <data name="String00203" xml:space="preserve">
+    <value>Zamknij do paska zadań</value>
+  </data>
+  <data name="String00204" xml:space="preserve">
+    <value>Język</value>
+  </data>
+  <data name="String00205" xml:space="preserve">
+    <value>* Wymagane ponowne uruchomienie programu!</value>
+  </data>
+  <data name="String00206" xml:space="preserve">
+    <value>Aktualizacja</value>
+  </data>
+  <data name="String00207" xml:space="preserve">
+    <value>Sprawdź aktualizacje przy uruchomieniu</value>
+  </data>
+  <data name="String00208" xml:space="preserve">
+    <value>Okno programu</value>
+  </data>
+  <data name="String00209" xml:space="preserve">
+    <value>Przezroczystość</value>
+  </data>
+  <data name="String00210" xml:space="preserve">
+    <value>Przezroczystość</value>
+  </data>
+  <data name="String00211" xml:space="preserve">
+    <value>Różne</value>
+  </data>
+  <data name="String00212" xml:space="preserve">
+    <value>Zawsze na wierzchu</value>
+  </data>
+  <data name="String00213" xml:space="preserve">
+    <value>Pokaż pasek menu</value>
+  </data>
+  <data name="String00214" xml:space="preserve">
+    <value>Pokaż pasek przycisków</value>
+  </data>
+  <data name="String00215" xml:space="preserve">
+    <value>Tytuł okna / Tytuł w pasku zadań</value>
+  </data>
+  <data name="String00216" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00217" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00218" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00219" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00220" xml:space="preserve">
+    <value>Mysz</value>
+  </data>
+  <data name="String00221" xml:space="preserve">
+    <value>Opcje</value>
+  </data>
+  <data name="String00222" xml:space="preserve">
+    <value>Nie chowaj gdy mysz jest nad powiadomieniem.</value>
+  </data>
+  <data name="String00223" xml:space="preserve">
+    <value>Pokaż ponownie powiadomienie po aktywacji myszą.</value>
+  </data>
+  <data name="String00224" xml:space="preserve">
+    <value>Link "Zamknij powiadomienie" jest aktywny.</value>
+  </data>
+  <data name="String00225" xml:space="preserve">
+    <value>Tekst wiadomości jest aktywny i otwiera Gmail.</value>
+  </data>
+  <data name="String00226" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00227" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00228" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00229" xml:space="preserve">
+    <value>Powiadomienia</value>
+  </data>
+  <data name="String00230" xml:space="preserve">
+    <value>Własne ustawienia wyglądu powiadomienia</value>
+  </data>
+  <data name="String00231" xml:space="preserve">
+    <value>Opcje</value>
+  </data>
+  <data name="String00232" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="String00233" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="String00234" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="String00235" xml:space="preserve">
+    <value>Szer.</value>
+  </data>
+  <data name="String00236" xml:space="preserve">
+    <value>Wys.</value>
+  </data>
+  <data name="String00237" xml:space="preserve">
+    <value>Zamknięcie [x]</value>
+  </data>
+  <data name="String00238" xml:space="preserve">
+    <value>Tytuł</value>
+  </data>
+  <data name="String00239" xml:space="preserve">
+    <value>Godzina</value>
+  </data>
+  <data name="String00240" xml:space="preserve">
+    <value>Od</value>
+  </data>
+  <data name="String00241" xml:space="preserve">
+    <value>Temat</value>
+  </data>
+  <data name="String00242" xml:space="preserve">
+    <value>Treść</value>
+  </data>
+  <data name="String00243" xml:space="preserve">
+    <value>Czcionka</value>
+  </data>
+  <data name="String00244" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="String00245" xml:space="preserve">
+    <value>Format godziny</value>
+  </data>
+  <data name="String00246" xml:space="preserve">
+    <value>Podgląd</value>
+  </data>
+  <data name="String00247" xml:space="preserve">
+    <value>Tło</value>
+  </data>
+  <data name="String00248" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00249" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00250" xml:space="preserve">
+    <value>- Jeśli puste, ładowane jest domyślne tło.</value>
+  </data>
+  <data name="String00251" xml:space="preserve">
+    <value>- Magenta (RGB 255, 0, 255) jest przezroczysta.</value>
+  </data>
+  <data name="String00252" xml:space="preserve">
+    <value>Zostaw puste jeśli ma pobierać czas systemowy.</value>
+  </data>
+  <data name="String00253" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00254" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00255" xml:space="preserve">
+    <value>Logi</value>
+  </data>
+  <data name="String00256" xml:space="preserve">
+    <value>Tekst w oknie programu</value>
+  </data>
+  <data name="String00257" xml:space="preserve">
+    <value>Czcionka</value>
+  </data>
+  <data name="String00258" xml:space="preserve">
+    <value>pt</value>
+  </data>
+  <data name="String00259" xml:space="preserve">
+    <value>Kolor tekstu</value>
+  </data>
+  <data name="String00260" xml:space="preserve">
+    <value>Kolor tła</value>
+  </data>
+  <data name="String00261" xml:space="preserve">
+    <value>Zawijaj wiersze</value>
+  </data>
+  <data name="String00262" xml:space="preserve">
+    <value>Pokaż godzinę</value>
+  </data>
+  <data name="String00263" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="String00264" xml:space="preserve">
+    <value>Zostaw puste jeśli ma pobierać domyślny format systemu.</value>
+  </data>
+  <data name="String00265" xml:space="preserve">
+    <value>Różne</value>
+  </data>
+  <data name="String00266" xml:space="preserve">
+    <value>Pokaż "Dzisiaj" "Wczoraj" zamiast daty pokazywanej w powiadomieniach</value>
+  </data>
+  <data name="String00267" xml:space="preserve">
+    <value>Ta opcja jest nadrzędna w stosunku do ustawionej w "Dostosuj" -&gt; Powiadomienie.</value>
+  </data>
+  <data name="String00268" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00269" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00270" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00271" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00272" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00273" xml:space="preserve">
+    <value>Pasek zadań</value>
+  </data>
+  <data name="String00274" xml:space="preserve">
+    <value>Narzędzia</value>
+  </data>
+  <data name="String00275" xml:space="preserve">
+    <value>Domyślna ikona</value>
+  </data>
+  <data name="String00276" xml:space="preserve">
+    <value>Zawsze pokazuj ikonę w pasku zadań</value>
+  </data>
+  <data name="String00277" xml:space="preserve">
+    <value>Po podwójnym kliknięciu w ikonę:</value>
+  </data>
+  <data name="String00278" xml:space="preserve">
+    <value>Włącz</value>
+  </data>
+  <data name="String00279" xml:space="preserve">
+    <value>Ustawia nowy adres odnośnika "Otwórz Gmail" i podwójnego kliknięcia w ikonę w pasku zadań. </value>
+  </data>
+  <data name="String00280" xml:space="preserve">
+    <value>Licznik nowych wiadomości</value>
+  </data>
+  <data name="String00281" xml:space="preserve">
+    <value>Pokaż liczbę nieprzeczytanych po najechaniu myszą na ikonę dla konta:</value>
+  </data>
+  <data name="String00282" xml:space="preserve">
+    <value>Pokaż nazwę konta</value>
+  </data>
+  <data name="String00283" xml:space="preserve">
+    <value>Własne ikony</value>
+  </data>
+  <data name="String00284" xml:space="preserve">
+    <value>Włącz</value>
+  </data>
+  <data name="String00285" xml:space="preserve">
+    <value>Domyślna</value>
+  </data>
+  <data name="String00286" xml:space="preserve">
+    <value>Nowa poczta</value>
+  </data>
+  <data name="String00287" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00288" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00289" xml:space="preserve">
+    <value>Jeśli włączone, używane są ikony z poniższej lokalizacji; w przeciwnym razie używane domyślne ikony .</value>
+  </data>
+  <data name="String00290" xml:space="preserve">
+    <value>Upewnij się, że opcja "Po nadejściu poczty pokaż ikonę:" w kategorii "Powiadomienia" jest włączona!</value>
+  </data>
+  <data name="String00291" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00292" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00293" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00294" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00295" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="String00296" xml:space="preserve">
+    <value>Gmail - ustawienia</value>
+  </data>
+  <data name="String00297" xml:space="preserve">
+    <value>Adres kanału RSS</value>
+  </data>
+  <data name="String00298" xml:space="preserve">
+    <value>Zaawansowane</value>
+  </data>
+  <data name="String00299" xml:space="preserve">
+    <value>Przed zalogowaniem sprawdź czy Gmail jest włączony. </value>
+  </data>
+  <data name="String00300" xml:space="preserve">
+    <value>Włącz jeśli masz problemy z połączeniem lub podczas sprawdzania poczty.</value>
+  </data>
+  <data name="String00301" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00302" xml:space="preserve">
+    <value>Sprawdzanie logowania jest włączone</value>
+  </data>
+  <data name="String00303" xml:space="preserve">
+    <value>Domyślnie ta opcja jest wyłączona. Wyłączyć?</value>
+  </data>
+  <data name="String00304" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00305" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00306" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="String00307" xml:space="preserve">
+    <value>Ustawienia serwera</value>
+  </data>
+  <data name="String00308" xml:space="preserve">
+    <value>Połączenie przez serwer proxy</value>
+  </data>
+  <data name="String00309" xml:space="preserve">
+    <value>Host lub IP</value>
+  </data>
+  <data name="String00310" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="String00311" xml:space="preserve">
+    <value>Proxy wymaga uwieżytelnienia</value>
+  </data>
+  <data name="String00312" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="String00313" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="String00314" xml:space="preserve">
+    <value>Po zapisie pole hasła jest czyszczone.</value>
+  </data>
+  <data name="String00315" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00316" xml:space="preserve">
+    <value>(bez tematu)</value>
+  </data>
+  <data name="String00317" xml:space="preserve">
+    <value>nieznany nadawca</value>
+  </data>
+  <data name="String00318" xml:space="preserve">
+    <value>nieznany adres</value>
+  </data>
+  <data name="String00319" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00320" xml:space="preserve">
+    <value>Zaawansowane</value>
+  </data>
+  <data name="String00321" xml:space="preserve">
+    <value>Debugowanie</value>
+  </data>
+  <data name="String00322" xml:space="preserve">
+    <value>Włącz</value>
+  </data>
+  <data name="String00323" xml:space="preserve">
+    <value>Zmiana przeglądarki</value>
+  </data>
+  <data name="String00324" xml:space="preserve">
+    <value>Włącz</value>
+  </data>
+  <data name="String00325" xml:space="preserve">
+    <value>Zmiana lokalizacja Gmail</value>
+  </data>
+  <data name="String00326" xml:space="preserve">
+    <value>Progamy</value>
+  </data>
+  <data name="String00327" xml:space="preserve">
+    <value>Wybierz program</value>
+  </data>
+  <data name="String00328" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00329" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String00330" xml:space="preserve">
+    <value>Uruchomiony w trybie Własnych Ustawień</value>
+  </data>
+  <data name="String00331" xml:space="preserve">
+    <value>Uruchomiony w trybie USB</value>
+  </data>
+  <data name="String00332" xml:space="preserve">
+    <value>Katalog roboczy</value>
+  </data>
+</root>
